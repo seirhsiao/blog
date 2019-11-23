@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="——╅ 萧 ☯ ℡" type="application/atom+xml">
+  <meta name="google-site-verification" content="8d5fb649bdfda9cb">
+  <meta name="baidu-site-verification" content="a2ac21ed3bfd04546458acf79469e44c">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
+    bookmark: {"enable":true,"color":"#222","save":"auto"},
+    fancybox: true,
+    mediumzoom: false,
+    lazyload: true,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+<!-- 添加页面樱花飘落动效 -->
+   <!--
+     <script type="text/javascript"> //只在桌面版网页启用特效
+       var windowWidth = $(window).width();
+       if (windowWidth > 768) {
+         document.write('<script type="text/javascript" src="/js/src/sakura.js"></script>');
+       }
+     </script>
+   -->
+   <script src="/js/src/sakura.js"></script>
+
+<!-- 添加页面雪花飘落动效
+-->
+
+ <!-- 看板娘 -->
+ <!--
+  https://github.com/Zevs6/live2d-widget
+  https://github.com/stevenjoezhang/live2d-widget
+ -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+ <script src="https://cdn.jsdelivr.net/gh/seirhsiao/live2d-widget/autoload.js"></script>
+  <meta name="description" content="&amp;#160; &amp;#160;弹指流年，拂歌尘散，清风舞明月，醉梦落花间。一梦醒来，恍如隔世。缘聚缘散缘如水，背负万丈尘寰，只为一句，等待下一次相逢。&amp;#160; &amp;#160; &amp;#160; &amp;#160;          ——题记  文&#x2F;萧">
+<meta name="keywords" content="人生,诗歌,心情">
+<meta property="og:type" content="article">
+<meta property="og:title" content="缘起缘灭缘成空，花开花落花归尘">
+<meta property="og:url" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;2016&#x2F;06&#x2F;26&#x2F;%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98&#x2F;index.html">
+<meta property="og:site_name" content="——╅ 萧 ☯ ℡">
+<meta property="og:description" content="&amp;#160; &amp;#160;弹指流年，拂歌尘散，清风舞明月，醉梦落花间。一梦醒来，恍如隔世。缘聚缘散缘如水，背负万丈尘寰，只为一句，等待下一次相逢。&amp;#160; &amp;#160; &amp;#160; &amp;#160;          ——题记  文&#x2F;萧">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;01.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;02.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;03.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;04.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;05.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;06.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;07.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;08.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;09.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;10.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;11.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;12.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;13.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;14.jpg">
+<meta property="og:updated_time" content="2016-06-26T06:31:28.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-06-25&#x2F;01.jpg">
+
+<link rel="canonical" href="http://blog.seirhsiao.com/2016/06/26/%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>缘起缘灭缘成空，花开花落花归尘 | ——╅ 萧 ☯ ℡</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70461570-1"></script>
+    <script pjax>
+      var host = window.location.hostname;
+      if (host !== "localhost" || !true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-70461570-1');
+      }
+    </script>
+
+
+  <script pjax>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?a2ac21ed3bfd04546458acf79469e44c";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">——╅ 萧 ☯ ℡</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">一花一世界，一叶一追寻。一曲一场叹，一生为一人。</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-books">
+
+    <a href="/books/" rel="section"><i class="fa fa-fw fa-book"></i>阅读</a>
+
+  </li>
+        <li class="menu-item menu-item-movies">
+
+    <a href="/movies/" rel="section"><i class="fa fa-fw fa-video-camera"></i>电影</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-fw fa-heartbeat"></i>公益 404</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+  <a href="https://github.com/seirhsiao" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2016/06/26/%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="萧">
+      <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="——╅ 萧 ☯ ℡">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          缘起缘灭缘成空，花开花落花归尘
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2016-06-26 00:00:00 / 修改时间：14:31:28" itemprop="dateCreated datePublished" datetime="2016-06-26T00:00:00+08:00">2016-06-26</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%B8%85%E9%A3%8E%E8%AF%B5%E9%9B%85/" itemprop="url" rel="index">
+                    <span itemprop="name">清风诵雅</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span id="/2016/06/26/%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98/" class="post-meta-item leancloud_visitors" data-flag-title="缘起缘灭缘成空，花开花落花归尘" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2016/06/26/%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2016/06/26/%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <html><head></head><body><p>   弹指流年，拂歌尘散，清风舞明月，醉梦落花间。一梦醒来，恍如隔世。缘聚缘散缘如水，背负万丈尘寰，只为一句，等待下一次相逢。<br>                 ——题记  文/萧 </p>
+<p><img alt="01" data-src="/static/images/2016-06-25/01.jpg"></p>
+<a id="more"></a>
+<p>   人生如梦，时光若水，在褪去喧嚣沉淀于岁月遥远的旅途中，忘记好久没一个人倚在寂静的黑夜中，去静静的品味夜的妖娆，夜的风情了。一份孤单的心门垂下被皎洁的月光照映脸颊的苍白，回眸于深邃的悠远，转身，又有些凄凉……</p>
+<p><img alt="02" data-src="/static/images/2016-06-25/02.jpg"></p>
+<p>   生命是一场幻觉。在时光流过的缝隙里，我再一次想起那些似远非远的经历。每个人心中都有一座城，那里有属于自己的故事，属于自己的风景，或远或近，或喜或悲，然后选择淡忘或埋葬，都是那么自然。</p>
+<p><img alt="03" data-src="/static/images/2016-06-25/03.jpg"></p>
+<p>   时间的沙漏沉淀着无法逃离的过往，记忆的双手总是拾起那些明媚的惆怅。青春的羽翼，划破青涩的记忆；低落的水滴，激起心中的涟漪。当流年已成过往，当物是加上人非，当情感变成疲惫，当世界充满不定，当经历说成注定，当生活让我遗憾。缘分是我不能够控制，望去只有无尽的现实。</p>
+<p><img alt="04" data-src="/static/images/2016-06-25/04.jpg"></p>
+<p>   云淡风轻，暗星残月，慰我一世沧桑，苍白纸张，尖锐笔尖，解我一世流离。踏歌而行，浅笑连连，一云一风，一星一月，一纸一笔，一人一世界，面对繁华人世，梦醒时分，徒留伤悲，久久未语。</p>
+<p><img alt="05" data-src="/static/images/2016-06-25/05.jpg"></p>
+<p>   枯藤老树，古道西风，瘦马踏，血如霞，渲染锦绣天下，一身戎装，刺青冰凉，生死两茫茫，尽数沧桑。临风长叹，江山已逝的凄惨，宛如迎风翩跹的白色花瓣，一片又一片飘零于哀伤的挽歌深处离散。惜人间，古道凄凉帝王悲，终为美人负天下，娇颜倾城，半曲情醉弹不尽。经不住的似水流年，留不住的盛世繁华，却是红颜薄命。</p>
+<p><img alt="06" data-src="/static/images/2016-06-25/06.jpg"></p>
+<p>   流年彼岸岁不同，凡尘自古多离恨。身影错错，叹古琴绝。人生如旅，亦哭亦歌，曲终人散时，不过是痛者自痛，伤者自伤。一场梦境，一场繁华，荣华谢后，君临天下，婉转千年，却难忘却。</p>
+<p><img alt="07" data-src="/static/images/2016-06-25/07.jpg"></p>
+<p>   繁华皆过往，旧梦随烟尘。回首向来潇洒处，归去，也无风雨也无晴。极目长天，月影排空，一映千山朦胧，风吟恣行。此刻，让心绪放逐与其间，仿若世间所有的纠葛也都淡了。</p>
+<p><img alt="08" data-src="/static/images/2016-06-25/08.jpg"></p>
+<p>   看月下幽莲暗开，听碧波水起叮咛，阵阵的清风遣着月色拂开久闭的心怀。宿命里深浅不测的纹路静静的流过岁月的长河，当光阴将世事洗澈的色彩归真的时候，是否就能够在时光两岸的黑白画卷里，为染了尘念的心境寻一方收卷云烟的幽篁，为孤寂的灵魂明悟一卷芥子纳须弥的玄妙与空灵。</p>
+<p><img alt="09" data-src="/static/images/2016-06-25/09.jpg"></p>
+<p>   胜水荷香，余馨寄远，携一缕淡淡的思绪，舀一瓢北斗的清洌，抓一把月色煮酒，且醉一宿这永寂的山河，让此时蟾光笼遮的凡尘烟火全部悄悄的安眠于这一刻惬意的温柔。</p>
+<p><img alt="10" data-src="/static/images/2016-06-25/10.jpg"></p>
+<p>   凝伫镜湖桥畔，清望云霄皓月。尘世间俗念的纠缠，有过多少的心碎断肠、黯然伤神，又能有多少的来去自如，飘洒若风？年华终要老去，恩怨终会平息，所有一切都会成为云烟过往，最终尘归尘，土归土。待到最后的最后，一丘坟冢，被缀满风沙的岁月，掩盖了简单的一生。</p>
+<p><img alt="11" data-src="/static/images/2016-06-25/11.jpg"></p>
+<p>   花开花落随风去，缘起缘灭天注定。日午画航桥下过，衣香人影太匆匆。人生偶遇，转瞬即逝，凡是来者，皆有缘分，凡是去者，皆是缘分散尽。 </p>
+<p><img alt="13" data-src="/static/images/2016-06-25/12.jpg"></p>
+<p>   缘即如风，来也是缘，去也是缘。已得是缘，未得亦是缘。 有缘才有能相遇，无缘岂能相知。白云千载，悠悠而去的是韶华红颜，永柱的是着若断若续的缘分，静看一季花开花落，淡守一生缘起缘灭。</p>
+<p><img alt="14" data-src="/static/images/2016-06-25/13.jpg"></p>
+<p>   缘是命，命是缘，缘不可求，缘如风，风不定。云聚是缘，云散也是缘。万千变化，云起时汹涌澎湃，云落时落寞舒缓。缘分是可遇不可求的风。前生缘，今世缘，丝丝缕缕尽缠绵，千里一线连。前世五百次的回眸，才换来今生的擦肩而过。短短今生一面遇，前世多少香火缘。</p>
+<p><img alt="15" data-src="/static/images/2016-06-25/14.jpg"></p>
+<p>   残月暮色，独舞晚风，陌上红尘，凋零花瓣，随风而碎，指尖染殇，渲红墨笔。千山越尽不知倦，万水覆河山，纵惊涛拍岸，天地血染，跨马临崖斜阳暖。这一生，抒一纸悲欢离合的情缘，普一曲千年之恋的夙愿，闻一季花落寒窗的凄美，听一段高山流水的静雅，终究还是抵不过一个人逐渐的苍老…… </p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=25876796&auto=1 height=66"></iframe>
+
+<!-- <embed src="http://player.youku.com/player.php/sid/XODYwMTE4NDg=/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed> -->
+
+<hr>
+<iframe height="498" width="510" src="http://player.youku.com/embed/XODYwMTE4NDg=" frameborder="0" allowfullscreen></iframe><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"superSample":2,"position":"left","width":150,"height":300,"hOffset":0,"vOffset":-20},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body></html>
+    </div>
+
+    
+    
+    
+      
+  <div class="popular-posts-header">相关文章推荐</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2016/03/25/梦里繁华终散尽,所谓伊人终成空/" rel="bookmark">梦里繁华终散尽,所谓伊人终成空</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2016/08/26/腹有诗书气自华，最是书香能致远/" rel="bookmark">腹有诗书气自华，最是书香能致远</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2016/03/18/那些年，无法铭记的电视剧 -- 《再次微笑》/" rel="bookmark">那些年，无法铭记的电视剧 -- 《再次微笑》</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2016/03/11/数风云人物，其名如诗画/" rel="bookmark">数风云人物，其名如诗画</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2016/02/26/君子何所求/" rel="bookmark">君子何所求</a></div>
+    </li>
+  </ul>
+
+
+    <!-- 文章后添加结束标语 -->
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束   <i class="fa fa-paw"></i>   感谢您的阅读-------------</div>
+    
+</div>
+      
+    </div>
+        <div class="reward-container">
+  <div>我知道是不会有人点的，但万一有人想不开呢👇</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="萧 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="萧 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>萧
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://blog.seirhsiao.com/2016/06/26/%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98/" title="缘起缘灭缘成空，花开花落花归尘">http://blog.seirhsiao.com/2016/06/26/%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/null" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/%E4%BA%BA%E7%94%9F/" rel="tag"><i class="fa fa-tag"></i> 人生</a>
+              <a href="/tags/%E8%AF%97%E6%AD%8C/" rel="tag"><i class="fa fa-tag"></i> 诗歌</a>
+              <a href="/tags/%E5%BF%83%E6%83%85/" rel="tag"><i class="fa fa-tag"></i> 心情</a>
+          </div>
+
+        
+  <div class="post-widgets">
+    <div class="wp_rating">
+      <div id="wpac-rating"></div>
+    </div>
+  </div>
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2016/03/25/%E6%A2%A6%E9%87%8C%E7%B9%81%E5%8D%8E%E7%BB%88%E6%95%A3%E5%B0%BD,%E6%89%80%E8%B0%93%E4%BC%8A%E4%BA%BA%E7%BB%88%E6%88%90%E7%A9%BA/" rel="next" title="梦里繁华终散尽,所谓伊人终成空">
+                  <i class="fa fa-chevron-left"></i> 梦里繁华终散尽,所谓伊人终成空
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+                <a href="/2016/08/26/%E8%85%B9%E6%9C%89%E8%AF%97%E4%B9%A6%E6%B0%94%E8%87%AA%E5%8D%8E%EF%BC%8C%E6%9C%80%E6%98%AF%E4%B9%A6%E9%A6%99%E8%83%BD%E8%87%B4%E8%BF%9C/" rel="prev" title="腹有诗书气自华，最是书香能致远">
+                  腹有诗书气自华，最是书香能致远 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    <div class="comments" id="comments"></div>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="萧"
+      src="/uploads/avatar.jpg">
+  <p class="site-author-name" itemprop="name">萧</p>
+  <div class="site-description" itemprop="description">佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">52</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">32</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="chat motion-element">
+    <a onclick="tidioChatApi.open();"><i class="fa fa-comment"></i>
+    Chat
+  </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/seirhsiao" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;seirhsiao" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/mailto:309183912@qq.com" title="E-Mail → mailto:309183912@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://weibo.com/u/5605217010" title="微博 → http:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;5605217010" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>微博</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://cv.seirhsiao.com/" title="简历 → http:&#x2F;&#x2F;cv.seirhsiao.com&#x2F;" rel="noopener" target="_blank"><i class="fa fa-fw fa-heartbeat"></i>简历</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      ✁-----※友情链接※-----✁
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://www.uisdc.com/" title="http:&#x2F;&#x2F;www.uisdc.com&#x2F;" rel="noopener" target="_blank">优设</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.zhangxinxu.com/" title="http:&#x2F;&#x2F;www.zhangxinxu.com&#x2F;" rel="noopener" target="_blank">张鑫旭</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://coolshell.cn/" title="http:&#x2F;&#x2F;coolshell.cn&#x2F;" rel="noopener" target="_blank">酷壳</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.ruanyifeng.com/blog/" title="http:&#x2F;&#x2F;www.ruanyifeng.com&#x2F;blog&#x2F;" rel="noopener" target="_blank">阮一峰</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://blog.zhaojie.me/" title="http:&#x2F;&#x2F;blog.zhaojie.me&#x2F;" rel="noopener" target="_blank">赵劼</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.liaoxuefeng.com/" title="http:&#x2F;&#x2F;www.liaoxuefeng.com&#x2F;" rel="noopener" target="_blank">廖雪峰</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">萧</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">108k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">1:38</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.5.0
+  </div>
+  <div class="addthis_inline_share_toolbox">
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=5c09ca03ec58ea9a" async="async"></script>
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+  <script pjax>
+  function leancloudSelector(url) {
+    return document.getElementById(url).querySelector('.leancloud-visitors-count');
+  }
+  if (CONFIG.page.isPost) {
+    function addCount(Counter) {
+      var visitors = document.querySelector('.leancloud_visitors');
+      var url = visitors.getAttribute('id').trim();
+      var title = visitors.getAttribute('data-flag-title').trim();
+
+      Counter('get', `/classes/Counter?where=${JSON.stringify({ url })}`)
+        .then(response => response.json())
+        .then(({ results }) => {
+          if (results.length > 0) {
+            var counter = results[0];
+              leancloudSelector(url).innerText = counter.time + 1;
+            Counter('put', '/classes/Counter/' + counter.objectId, { time: { '__op': 'Increment', 'amount': 1 } })
+              .then(response => response.json())
+              .catch(error => {
+                console.log('Failed to save visitor count', error);
+              })
+          } else {
+              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
+              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
+            
+          }
+        })
+        .catch(error => {
+          console.log('LeanCloud Counter Error', error);
+        });
+    }
+  } else {
+    function showTime(Counter) {
+      var visitors = document.querySelectorAll('.leancloud_visitors');
+      var entries = [...visitors].map(element => {
+        return element.getAttribute('id').trim();
+      });
+
+      Counter('get', `/classes/Counter?where=${JSON.stringify({ url: { '$in': entries } })}`)
+        .then(response => response.json())
+        .then(({ results }) => {
+          if (results.length === 0) {
+            document.querySelectorAll('.leancloud_visitors .leancloud-visitors-count').forEach(element => {
+              element.innerText = 0;
+            });
+            return;
+          }
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.url;
+            var time = item.time;
+            leancloudSelector(url).innerText = time;
+          }
+          for (var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = leancloudSelector(url);
+            if (element.innerText == '') {
+              element.innerText = 0;
+            }
+          }
+        })
+        .catch(error => {
+          console.log('LeanCloud Counter Error', error);
+        });
+    }
+  }
+
+  fetch('https://app-router.leancloud.cn/2/route?appId=PFdiF3pQOKd2cMhsTRt7bDYT')
+    .then(response => response.json())
+    .then(({ api_server }) => {
+      var Counter = (method, url, data) => {
+        return fetch(`https://${api_server}/1.1${url}`, {
+          method: method,
+          headers: {
+            'X-LC-Id': 'PFdiF3pQOKd2cMhsTRt7bDYT',
+            'X-LC-Key': 'WprfuKVn4SHdhAU8UqjC0Fyb',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+      if (CONFIG.page.isPost) {
+        const localhost = /http:\/\/(localhost|127.0.0.1|0.0.0.0)/;
+        if (localhost.test(document.URL)) return;
+        addCount(Counter);
+      } else if (document.querySelectorAll('.post-title-link').length >= 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="//cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.getAttribute('pjax') !== null) {
+      element.setAttribute('pjax', '');
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+  <script pjax>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+  <script pjax>
+  if (CONFIG.page.isPost) {
+    wpac_init = window.wpac_init || [];
+    wpac_init.push({
+      widget: 'Rating',
+      id: 22019,
+      el: 'wpac-rating',
+      color: 'fc6423'
+    });
+    (function() {
+      if ('WIDGETPACK_LOADED' in window) return;
+      WIDGETPACK_LOADED = true;
+      var mc = document.createElement('script');
+      mc.type = 'text/javascript';
+      mc.async = true;
+      mc.src = '//embed.widgetpack.com/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+    })();
+  }
+  </script>
+
+  <script>
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install','s4178kShfg_-MMe4Rh8G','2.0.0');
+</script>
+
+
+
+
+
+
+  <script src="//code.tidio.co/uw8jowk9cwh4pezy6afgybpqzj0mzlwo.js"></script>
+
+
+
+
+
+
+
+    <div id="pjax">
+
+  
+
+  
+
+
+<script>
+NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', () => {
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(item => {
+    return GUEST.includes(item);
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'PFdiF3pQOKd2cMhsTRt7bDYT',
+    appKey: 'WprfuKVn4SHdhAU8UqjC0Fyb',
+    placeholder: "Just go go",
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: 'zh-cn' || 'zh-cn',
+    path: location.pathname,
+    recordIP: false,
+    serverURLs: ''
+  });
+}, window.Valine);
+</script>
+
+    </div>
+
+<!-- 点击爆炸效果 -->
+  
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+   <script type="text/javascript" src="/js/src/fireworks.js"></script>
+  
+
+<!-- 网页音乐播放器功能 -->
+<link rel="stylesheet" href="/js/src/APlayer/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/js/src/APlayer/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/js/src/APlayer/dist/music.js"></script>
+
+<!-- 崩溃欺骗 -->
+<script type="text/javascript" src="/js/src/crash_cheat.js"></script>
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"superSample":2,"position":"left","width":150,"height":300,"hOffset":0,"vOffset":-20},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body>
+</html>

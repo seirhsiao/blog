@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="——╅ 萧 ☯ ℡" type="application/atom+xml">
+  <meta name="google-site-verification" content="8d5fb649bdfda9cb">
+  <meta name="baidu-site-verification" content="a2ac21ed3bfd04546458acf79469e44c">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js">
+  <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
+    bookmark: {"enable":true,"color":"#222","save":"auto"},
+    fancybox: true,
+    mediumzoom: false,
+    lazyload: true,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+<!-- 添加页面樱花飘落动效 -->
+   <!--
+     <script type="text/javascript"> //只在桌面版网页启用特效
+       var windowWidth = $(window).width();
+       if (windowWidth > 768) {
+         document.write('<script type="text/javascript" src="/js/src/sakura.js"></script>');
+       }
+     </script>
+   -->
+   <script src="/js/src/sakura.js"></script>
+
+<!-- 添加页面雪花飘落动效
+-->
+
+ <!-- 看板娘 -->
+ <!--
+  https://github.com/Zevs6/live2d-widget
+  https://github.com/stevenjoezhang/live2d-widget
+ -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+ <script src="https://cdn.jsdelivr.net/gh/seirhsiao/live2d-widget/autoload.js"></script>
+  <meta name="description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;随着2016年新年的降临，2015年彻底落下帷幕，年前最后一件必不可少的事 – 做总结报告。回首2015年，对于个人和机构注定是不平凡的一年，用波澜壮阔和跌宕起伏来形容并不为过。在中国宏观政策和投资环境下，投资回报一个惨字来形容，虽然赔损严重，但活着就有希望。历史总是惊人的相似,但不会简单的重复，总结历史，把握现在，展望未来，如何在2016年把">
+<meta name="keywords" content="理财,报告,投资,展望">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2015-2016年度个人投资理财总结报告">
+<meta property="og:url" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;2016&#x2F;02&#x2F;05&#x2F;2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A&#x2F;index.html">
+<meta property="og:site_name" content="——╅ 萧 ☯ ℡">
+<meta property="og:description" content="&amp;#160; &amp;#160; &amp;#160; &amp;#160;随着2016年新年的降临，2015年彻底落下帷幕，年前最后一件必不可少的事 – 做总结报告。回首2015年，对于个人和机构注定是不平凡的一年，用波澜壮阔和跌宕起伏来形容并不为过。在中国宏观政策和投资环境下，投资回报一个惨字来形容，虽然赔损严重，但活着就有希望。历史总是惊人的相似,但不会简单的重复，总结历史，把握现在，展望未来，如何在2016年把">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-02-05&#x2F;01.png">
+<meta property="og:updated_time" content="2016-02-12T00:17:30.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;blog.seirhsiao.com&#x2F;static&#x2F;images&#x2F;2016-02-05&#x2F;01.png">
+
+<link rel="canonical" href="http://blog.seirhsiao.com/2016/02/05/2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>2015-2016年度个人投资理财总结报告 | ——╅ 萧 ☯ ℡</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70461570-1"></script>
+    <script pjax>
+      var host = window.location.hostname;
+      if (host !== "localhost" || !true) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-70461570-1');
+      }
+    </script>
+
+
+  <script pjax>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?a2ac21ed3bfd04546458acf79469e44c";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">——╅ 萧 ☯ ℡</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">一花一世界，一叶一追寻。一曲一场叹，一生为一人。</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-books">
+
+    <a href="/books/" rel="section"><i class="fa fa-fw fa-book"></i>阅读</a>
+
+  </li>
+        <li class="menu-item menu-item-movies">
+
+    <a href="/movies/" rel="section"><i class="fa fa-fw fa-video-camera"></i>电影</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-fw fa-heartbeat"></i>公益 404</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+  <a href="https://github.com/seirhsiao" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2016/02/05/2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="name" content="萧">
+      <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="——╅ 萧 ☯ ℡">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          2015-2016年度个人投资理财总结报告
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2016-02-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-02-05T00:00:00+08:00">2016-02-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2016-02-12 08:17:30" itemprop="dateModified" datetime="2016-02-12T08:17:30+08:00">2016-02-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2/" itemprop="url" rel="index">
+                    <span itemprop="name">投资理财</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span id="/2016/02/05/2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A/" class="post-meta-item leancloud_visitors" data-flag-title="2015-2016年度个人投资理财总结报告" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2016/02/05/2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2016/02/05/2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <html><head></head><body><p>       随着2016年新年的降临，2015年彻底落下帷幕，年前最后一件必不可少的事 – 做总结报告。回首2015年，对于个人和机构注定是不平凡的一年，用波澜壮阔和跌宕起伏来形容并不为过。在中国宏观政策和投资环境下，投资回报一个惨字来形容，虽然赔损严重，但活着就有希望。历史总是惊人的相似,但不会简单的重复，总结历史，把握现在，展望未来，如何在2016年把握世界经济形势和动向，对于2016投资将起到至关重要的作用。总结是为了更好的展望，如若不能总结到位，那展望一定是空中楼阁。</p>
+<a id="more"></a>
+<h2 id="回首2015"><a href="#回首2015" class="headerlink" title="回首2015"></a>回首2015</h2><h3 id="（一）2015大事件回顾"><a href="#（一）2015大事件回顾" class="headerlink" title="（一）2015大事件回顾"></a>（一）2015大事件回顾</h3><p>       面对逝去的2015年，回顾和盘点其间所发生的重大财经事件，能深刻感受到中国经济发展的主线与矛盾。</p>
+<h4 id="央行共计10次“降准降息”"><a href="#央行共计10次“降准降息”" class="headerlink" title="央行共计10次“降准降息”"></a>央行共计10次“降准降息”</h4><p>       自今年2月4日央行宣布将于2月5日起下调金融机构人民币存款准备金率0.5个百分点，首次按下“降准”按钮以来，截至目前，已连续降准降息10次，其中两次降准、两次降息、3次“双降”。连续降准降息的背后，是国内经济面临的前所未有的转折点。近年来，中国GDP增速从长达十数年连续两位数悄然回落到个位数，从保“8”到保“7”再到探至“6”时代，经济增速的战略“红线”不断下移，代表工业景气程度的PPI指数甚至连续43个月为负值。在此情况下，刺激投资和消费，改变公众预期成为首要任务，企业负债率过高造成的资金链紧张也是央行货币政策需要转向的主要原因。</p>
+<h4 id="刺激楼市银税新政连发"><a href="#刺激楼市银税新政连发" class="headerlink" title="刺激楼市银税新政连发"></a>刺激楼市银税新政连发</h4><p>       政府接连出台的许多稳定市场的文件，犹如一剂强心针，给疲软的楼市带来一线生机，一些城市楼市成交量价随后回升的消息不时传出。但之后陆续公布的全国房地产市场有关数据表明，这个市场总体上仍然是“供大于求、库存高企”。</p>
+<h4 id="国企改革造就疯牛"><a href="#国企改革造就疯牛" class="headerlink" title="国企改革造就疯牛"></a>国企改革造就疯牛</h4><p>       由于传统经济的不景气，银行收缩信贷，无风险收益率持续下滑，央行主动或被动降息，但无益于信贷等传统方式融资规模的提升。似乎中国经济陷入了一个恶性循环。间接融资难以发力，直接融资就成为了新的期盼。中国股市就是在这样一个宏观背景下被赋予了政治色彩。</p>
+<p>       为了营造一个能够帮助债务问题缓解和经济转型的大牛市，中国股市迎来了奔放的黄金时期。金融监管在金融创新的名义下完全丧失，金融创新的快速推进又夹杂着浓厚的草莽色彩。证券这个利益链上所有人都摩拳擦掌跃跃欲试，监管的放松令大家愿意承担更多的风险，以获取更多的利益，不仅从股价的上涨中，还从市场的功能上。券商融资补充资本金投向创新业务，业务线各种积极推进，甚至银行也通过各种方式绕开各种限制、以看似合规的方式参与到了股市之中，民间资金更是肆无忌惮的直接或间接入市。一时间，中国股市的杠杆率急升，推动了2015年上半年剧烈振荡后急不可耐的疯牛形成。</p>
+<h4 id="人民币成功加入SDR"><a href="#人民币成功加入SDR" class="headerlink" title="人民币成功加入SDR"></a>人民币成功加入SDR</h4><p>       国际货币基金组织（IMF）执董会批准人民币加入特别提款权（SDR）货币篮子，新的货币篮子将于2016年10月1日正式生效。</p>
+<p>       人民币成为首个被纳入SDR篮子的新兴市场国家货币，这意味着人民币的重要性得到IMF官方认可，有助于推动人民币在国际金融领域的应用和国际化。</p>
+<h4 id="注册制时间表敲定"><a href="#注册制时间表敲定" class="headerlink" title="注册制时间表敲定"></a>注册制时间表敲定</h4><p>       注册制使得企业上市时间大大缩短，壳资源稀缺性不再，借壳上市和炒作垃圾股或会得到收敛；注册制实施后，小盘股的高溢价格局有望打破，市场估值逐步回归理性；注册制下供给大幅增加，没有基本面支撑的个股将难以获得投资者青睐，注册制的实行有助于市场回归“价值投资”。</p>
+<h4 id="股灾与救市"><a href="#股灾与救市" class="headerlink" title="股灾与救市"></a>股灾与救市</h4><p>       2015年注定是中国股市难忘的一年。从牛市起步到疯牛的形成，再到股灾爆发流动性完全丧失，监管当局出手救市后又遭人民币贬值预期打压，政府不得不全球安抚，这一切仅仅在半年多的时间内完成，如梦亦如幻。</p>
+<p>       极端的疯牛引来了极端的闪电熊，极端的股灾引来了极端的救市。救市是不得已而为之，因为各方利益牵涉其中，若不救市就可能引发系统性金融风险。要知道，在股灾爆发时，市场中到底有多少杠杆资金，牵涉到多少金融机构，监管层和市场似乎一样心里没有底。</p>
+<h3 id="二-个人2015年损益分析明细"><a href="#二-个人2015年损益分析明细" class="headerlink" title="(二) 个人2015年损益分析明细"></a>(二) 个人2015年损益分析明细</h3><h4 id="投资损益明细表"><a href="#投资损益明细表" class="headerlink" title="投资损益明细表"></a>投资损益明细表</h4><p><img alt="01" data-src="/static/images/2016-02-05/01.png"></p>
+<h4 id="总结与教训"><a href="#总结与教训" class="headerlink" title="总结与教训"></a>总结与教训</h4><ol>
+<li>过度信任媒体，认为改革牛、资金牛（资本市场历史大风口）继续，不猜顶；</li>
+<li>认为保持赢家思维，大跌就是进场的机会，盲目抄底。– 别人贪婪时恐惧，别人恐惧时贪婪。</li>
+<li>风险编好过高，投资类别少。</li>
+<li>选股过于草率，忽视价值投资法分析。</li>
+<li>对于题材过于依赖，缺少基本面的分析。</li>
+<li>股票强者恒强道理需谨记。</li>
+</ol>
+<h2 id="展望未来"><a href="#展望未来" class="headerlink" title="展望未来"></a>展望未来</h2><p>       2016年，上至国家，下至百姓，都为关键性的转折。面对国家产业结构的调整，个人也要做做相应地 个人资产结构的调整。</p>
+<h3 id="一-2016经济趋势"><a href="#一-2016经济趋势" class="headerlink" title="(一) 2016经济趋势"></a>(一) 2016经济趋势</h3><ul>
+<li>全民迎来负利率时代</li>
+<li>企业将回归商业本质，关系和资源不再是核心竞争力，唯有创新。</li>
+<li>互联网+带来新经济常态，继续成为国家扶持的对象。</li>
+<li>传统产业进入深度调整区间，或重组或破产。</li>
+<li>产能过剩，库存积压，供给侧改革，未来房价会有所下降。</li>
+</ul>
+<h3 id="二-投资看点"><a href="#二-投资看点" class="headerlink" title="(二) 投资看点"></a>(二) 投资看点</h3><ul>
+<li>新能源，新科技将成为经济热点。</li>
+<li>虚拟现实VR有望替代手持设备。</li>
+<li>人民币汇率波动常态化，股市也将迎来新常态的波动，切记盲目进场。</li>
+<li>面对世界经济持续疲软，货币贬值，黄金等贵金属将迎来一波投资高潮。</li>
+<li>亚投行，一带一路，国企改革将继续引领市场行情。</li>
+</ul>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"superSample":2,"position":"left","width":150,"height":300,"hOffset":0,"vOffset":-20},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body></html>
+    </div>
+
+    
+    
+    
+      
+  <div class="popular-posts-header">相关文章推荐</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2014/10/18/消费的分类/" rel="bookmark">消费的分类</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2014/10/15/记账表和家庭消费分配图/" rel="bookmark">记账表和家庭消费分配图</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2014/10/07/几种轻松记帐的APP工具介绍/" rel="bookmark">几种轻松记帐的APP工具介绍</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2014/10/05/记帐工具的介绍/" rel="bookmark">记帐工具的介绍</a></div>
+    </li>
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/2014/10/03/如何记帐以及记帐的方法/" rel="bookmark">如何记帐以及记帐的方法</a></div>
+    </li>
+  </ul>
+
+
+    <!-- 文章后添加结束标语 -->
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束   <i class="fa fa-paw"></i>   感谢您的阅读-------------</div>
+    
+</div>
+      
+    </div>
+        <div class="reward-container">
+  <div>我知道是不会有人点的，但万一有人想不开呢👇</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="萧 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="萧 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>萧
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://blog.seirhsiao.com/2016/02/05/2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A/" title="2015-2016年度个人投资理财总结报告">http://blog.seirhsiao.com/2016/02/05/2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/null" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/%E7%90%86%E8%B4%A2/" rel="tag"><i class="fa fa-tag"></i> 理财</a>
+              <a href="/tags/%E6%8A%A5%E5%91%8A/" rel="tag"><i class="fa fa-tag"></i> 报告</a>
+              <a href="/tags/%E6%8A%95%E8%B5%84/" rel="tag"><i class="fa fa-tag"></i> 投资</a>
+              <a href="/tags/%E5%B1%95%E6%9C%9B/" rel="tag"><i class="fa fa-tag"></i> 展望</a>
+          </div>
+
+        
+  <div class="post-widgets">
+    <div class="wp_rating">
+      <div id="wpac-rating"></div>
+    </div>
+  </div>
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2015/08/05/%E4%BA%BA%E7%94%9F-%E6%8B%A9%E5%96%84%E4%BA%BA%E8%80%8C%E4%BA%A4/" rel="next" title="人生，择善人而交">
+                  <i class="fa fa-chevron-left"></i> 人生，择善人而交
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+                <a href="/2016/02/14/%E4%BB%A5%E6%96%87%E4%B8%BA%E7%BC%98%EF%BC%8C%E4%BC%B4%E6%88%91%E4%BF%AE%E8%A1%8C/" rel="prev" title="以文为缘，伴我修行">
+                  以文为缘，伴我修行 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    <div class="comments" id="comments"></div>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#回首2015"><span class="nav-number">1.</span> <span class="nav-text">回首2015</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（一）2015大事件回顾"><span class="nav-number">1.1.</span> <span class="nav-text">（一）2015大事件回顾</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#央行共计10次“降准降息”"><span class="nav-number">1.1.1.</span> <span class="nav-text">央行共计10次“降准降息”</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#刺激楼市银税新政连发"><span class="nav-number">1.1.2.</span> <span class="nav-text">刺激楼市银税新政连发</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#国企改革造就疯牛"><span class="nav-number">1.1.3.</span> <span class="nav-text">国企改革造就疯牛</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#人民币成功加入SDR"><span class="nav-number">1.1.4.</span> <span class="nav-text">人民币成功加入SDR</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注册制时间表敲定"><span class="nav-number">1.1.5.</span> <span class="nav-text">注册制时间表敲定</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#股灾与救市"><span class="nav-number">1.1.6.</span> <span class="nav-text">股灾与救市</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二-个人2015年损益分析明细"><span class="nav-number">1.2.</span> <span class="nav-text">(二) 个人2015年损益分析明细</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#投资损益明细表"><span class="nav-number">1.2.1.</span> <span class="nav-text">投资损益明细表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#总结与教训"><span class="nav-number">1.2.2.</span> <span class="nav-text">总结与教训</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#展望未来"><span class="nav-number">2.</span> <span class="nav-text">展望未来</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一-2016经济趋势"><span class="nav-number">2.1.</span> <span class="nav-text">(一) 2016经济趋势</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二-投资看点"><span class="nav-number">2.2.</span> <span class="nav-text">(二) 投资看点</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="萧"
+      src="/uploads/avatar.jpg">
+  <p class="site-author-name" itemprop="name">萧</p>
+  <div class="site-description" itemprop="description">佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">52</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">32</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="chat motion-element">
+    <a onclick="tidioChatApi.open();"><i class="fa fa-comment"></i>
+    Chat
+  </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/seirhsiao" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;seirhsiao" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/mailto:309183912@qq.com" title="E-Mail → mailto:309183912@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://weibo.com/u/5605217010" title="微博 → http:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;5605217010" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>微博</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://cv.seirhsiao.com/" title="简历 → http:&#x2F;&#x2F;cv.seirhsiao.com&#x2F;" rel="noopener" target="_blank"><i class="fa fa-fw fa-heartbeat"></i>简历</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      ✁-----※友情链接※-----✁
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://www.uisdc.com/" title="http:&#x2F;&#x2F;www.uisdc.com&#x2F;" rel="noopener" target="_blank">优设</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.zhangxinxu.com/" title="http:&#x2F;&#x2F;www.zhangxinxu.com&#x2F;" rel="noopener" target="_blank">张鑫旭</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://coolshell.cn/" title="http:&#x2F;&#x2F;coolshell.cn&#x2F;" rel="noopener" target="_blank">酷壳</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.ruanyifeng.com/blog/" title="http:&#x2F;&#x2F;www.ruanyifeng.com&#x2F;blog&#x2F;" rel="noopener" target="_blank">阮一峰</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://blog.zhaojie.me/" title="http:&#x2F;&#x2F;blog.zhaojie.me&#x2F;" rel="noopener" target="_blank">赵劼</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.liaoxuefeng.com/" title="http:&#x2F;&#x2F;www.liaoxuefeng.com&#x2F;" rel="noopener" target="_blank">廖雪峰</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">萧</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">108k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">1:38</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.5.0
+  </div>
+  <div class="addthis_inline_share_toolbox">
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=5c09ca03ec58ea9a" async="async"></script>
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+  <script pjax>
+  function leancloudSelector(url) {
+    return document.getElementById(url).querySelector('.leancloud-visitors-count');
+  }
+  if (CONFIG.page.isPost) {
+    function addCount(Counter) {
+      var visitors = document.querySelector('.leancloud_visitors');
+      var url = visitors.getAttribute('id').trim();
+      var title = visitors.getAttribute('data-flag-title').trim();
+
+      Counter('get', `/classes/Counter?where=${JSON.stringify({ url })}`)
+        .then(response => response.json())
+        .then(({ results }) => {
+          if (results.length > 0) {
+            var counter = results[0];
+              leancloudSelector(url).innerText = counter.time + 1;
+            Counter('put', '/classes/Counter/' + counter.objectId, { time: { '__op': 'Increment', 'amount': 1 } })
+              .then(response => response.json())
+              .catch(error => {
+                console.log('Failed to save visitor count', error);
+              })
+          } else {
+              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
+              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
+            
+          }
+        })
+        .catch(error => {
+          console.log('LeanCloud Counter Error', error);
+        });
+    }
+  } else {
+    function showTime(Counter) {
+      var visitors = document.querySelectorAll('.leancloud_visitors');
+      var entries = [...visitors].map(element => {
+        return element.getAttribute('id').trim();
+      });
+
+      Counter('get', `/classes/Counter?where=${JSON.stringify({ url: { '$in': entries } })}`)
+        .then(response => response.json())
+        .then(({ results }) => {
+          if (results.length === 0) {
+            document.querySelectorAll('.leancloud_visitors .leancloud-visitors-count').forEach(element => {
+              element.innerText = 0;
+            });
+            return;
+          }
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.url;
+            var time = item.time;
+            leancloudSelector(url).innerText = time;
+          }
+          for (var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = leancloudSelector(url);
+            if (element.innerText == '') {
+              element.innerText = 0;
+            }
+          }
+        })
+        .catch(error => {
+          console.log('LeanCloud Counter Error', error);
+        });
+    }
+  }
+
+  fetch('https://app-router.leancloud.cn/2/route?appId=PFdiF3pQOKd2cMhsTRt7bDYT')
+    .then(response => response.json())
+    .then(({ api_server }) => {
+      var Counter = (method, url, data) => {
+        return fetch(`https://${api_server}/1.1${url}`, {
+          method: method,
+          headers: {
+            'X-LC-Id': 'PFdiF3pQOKd2cMhsTRt7bDYT',
+            'X-LC-Key': 'WprfuKVn4SHdhAU8UqjC0Fyb',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+      if (CONFIG.page.isPost) {
+        const localhost = /http:\/\/(localhost|127.0.0.1|0.0.0.0)/;
+        if (localhost.test(document.URL)) return;
+        addCount(Counter);
+      } else if (document.querySelectorAll('.post-title-link').length >= 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="//cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.getAttribute('pjax') !== null) {
+      element.setAttribute('pjax', '');
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+  <script pjax>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+  <script pjax>
+  if (CONFIG.page.isPost) {
+    wpac_init = window.wpac_init || [];
+    wpac_init.push({
+      widget: 'Rating',
+      id: 22019,
+      el: 'wpac-rating',
+      color: 'fc6423'
+    });
+    (function() {
+      if ('WIDGETPACK_LOADED' in window) return;
+      WIDGETPACK_LOADED = true;
+      var mc = document.createElement('script');
+      mc.type = 'text/javascript';
+      mc.async = true;
+      mc.src = '//embed.widgetpack.com/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+    })();
+  }
+  </script>
+
+  <script>
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install','s4178kShfg_-MMe4Rh8G','2.0.0');
+</script>
+
+
+
+
+
+
+  <script src="//code.tidio.co/uw8jowk9cwh4pezy6afgybpqzj0mzlwo.js"></script>
+
+
+
+
+
+
+
+    <div id="pjax">
+
+  
+
+  
+
+
+<script>
+NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', () => {
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(item => {
+    return GUEST.includes(item);
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'PFdiF3pQOKd2cMhsTRt7bDYT',
+    appKey: 'WprfuKVn4SHdhAU8UqjC0Fyb',
+    placeholder: "Just go go",
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: 'zh-cn' || 'zh-cn',
+    path: location.pathname,
+    recordIP: false,
+    serverURLs: ''
+  });
+}, window.Valine);
+</script>
+
+    </div>
+
+<!-- 点击爆炸效果 -->
+  
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+   <script type="text/javascript" src="/js/src/fireworks.js"></script>
+  
+
+<!-- 网页音乐播放器功能 -->
+<link rel="stylesheet" href="/js/src/APlayer/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/js/src/APlayer/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/js/src/APlayer/dist/music.js"></script>
+
+<!-- 崩溃欺骗 -->
+<script type="text/javascript" src="/js/src/crash_cheat.js"></script>
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/clicklove.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"superSample":2,"position":"left","width":150,"height":300,"hOffset":0,"vOffset":-20},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body>
+</html>
