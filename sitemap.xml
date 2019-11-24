@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.seirhsiao.com/top/index.html</loc>
+    
+    <lastmod>2019-11-23T14:26:08.578Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.seirhsiao.com/404.html</loc>
+    
+    <lastmod>2019-11-23T13:16:50.837Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.seirhsiao.com/405.html</loc>
+    
+    <lastmod>2019-11-23T13:16:22.035Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.seirhsiao.com/bookmark/index.html</loc>
+    
+    <lastmod>2019-11-23T12:09:29.762Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.seirhsiao.com/2013/09/08/%25E9%25BB%2598%25E5%25AE%2588%25E6%2597%25B6%25E5%2585%2589-%25E9%259D%2599%25E5%25BE%2585%25E6%25B5%2581%25E5%25B9%25B4/</loc>
+    
+    <lastmod>2019-11-23T10:59:38.536Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.seirhsiao.com/2014/02/21/%25E8%25B8%258F%25E9%25A3%258E%25E5%258F%25A3%25E6%25B5%25AA%25E5%25B0%2596/</loc>
+    
+    <lastmod>2019-11-23T10:58:44.894Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.seirhsiao.com/2013/08/08/%25E5%25B1%25B1%25E6%25B0%25B4%25E6%2583%2585/</loc>
     
     <lastmod>2019-11-23T04:20:23.636Z</lastmod>
@@ -68,13 +110,6 @@
     <loc>http://blog.seirhsiao.com/404/qq_404.html</loc>
     
     <lastmod>2018-12-07T00:54:18.082Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.seirhsiao.com/404.html</loc>
-    
-    <lastmod>2018-12-07T00:52:59.343Z</lastmod>
     
   </url>
   
@@ -191,13 +226,6 @@
   </url>
   
   <url>
-    <loc>http://blog.seirhsiao.com/2014/02/21/%25E8%25B8%258F%25E9%25A3%258E%25E5%258F%25A3%25E6%25B5%25AA%25E5%25B0%2596/</loc>
-    
-    <lastmod>2016-02-12T00:38:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.seirhsiao.com/2014/06/04/%25E5%25BE%2580%25E6%2598%2594%25E4%25B8%258D%25E5%2586%258D-%25E6%25A2%25A6%25E6%2583%25B3%25E4%25BE%259D%25E6%2597%25A7/</loc>
     
     <lastmod>2016-02-12T00:38:26.000Z</lastmod>
@@ -250,13 +278,6 @@
     <loc>http://blog.seirhsiao.com/2014/11/26/%25E9%25A3%258E%25E9%259B%25A8%25E4%25BA%25BA%25E7%2594%259F-%25E6%25B7%25A1%25E7%2584%25B6%25E7%259B%25B8%25E9%259A%258F/</loc>
     
     <lastmod>2016-02-11T10:42:52.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.seirhsiao.com/2013/09/08/%25E9%25BB%2598%25E5%25AE%2588%25E6%2597%25B6%25E5%2585%2589-%25E9%259D%2599%25E5%25BE%2585%25E6%25B5%2581%25E5%25B9%25B4/</loc>
-    
-    <lastmod>2016-02-07T01:45:02.000Z</lastmod>
     
   </url>
   
@@ -429,13 +450,6 @@
   </url>
   
   <url>
-    <loc>http://blog.seirhsiao.com/405.html</loc>
-    
-    <lastmod>2016-01-31T06:53:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.seirhsiao.com/about/index.html</loc>
     
     <lastmod>2016-01-29T11:42:32.000Z</lastmod>
@@ -453,13 +467,6 @@
     <loc>http://blog.seirhsiao.com/loading.html</loc>
     
     <lastmod>2015-11-15T07:23:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.seirhsiao.com/README.html</loc>
-    
-    <lastmod>2015-11-01T12:34:00.000Z</lastmod>
     
   </url>
   

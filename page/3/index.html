@@ -18,7 +18,7 @@
 
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css">
   <script src="//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js"></script>
 
 
@@ -51,19 +51,7 @@
   };
 </script>
 
-<!-- 添加页面樱花飘落动效 -->
-   <!--
-     <script type="text/javascript"> //只在桌面版网页启用特效
-       var windowWidth = $(window).width();
-       if (windowWidth > 768) {
-         document.write('<script type="text/javascript" src="/js/src/sakura.js"></script>');
-       }
-     </script>
-   -->
-   <script src="/js/src/sakura.js"></script>
 
-<!-- 添加页面雪花飘落动效
--->
 
  <!-- 看板娘 -->
  <!--
@@ -71,9 +59,24 @@
   https://github.com/stevenjoezhang/live2d-widget
   <script src="https://cdn.jsdelivr.net/gh/seirhsiao/live2d-widget/autoload.js"></script>
  -->
- <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
- <script src="https://cdn.jsdelivr.net/gh/seirhsiao/live2d-widget/autoload.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+  <script src="/lib/live2d-widget/autoload.js"></script>
+
+<!-- 添加页面樱花飘落动效 -->
+    <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        console.log("width: " + windowWidth);
+        if (windowWidth > 120) {
+        // document.write("<script src='/js/src/sakura.js'><" +'/'+"script>");
+           document.write('<script type="text/javascript" src="/js/src/sakura.js"><\/script>');
+        }
+    </script>
+
+<!-- 添加页面雪花飘落动效
+-->
 
   <meta name="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
 <meta property="og:type" content="website">
@@ -212,11 +215,6 @@
     <a href="/movies/" rel="section"><i class="fa fa-fw fa-video-camera"></i>电影</a>
 
   </li>
-        <li class="menu-item menu-item-commonweal">
-
-    <a href="/404/" rel="section"><i class="fa fa-fw fa-heartbeat"></i>公益 404</a>
-
-  </li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -272,10 +270,135 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2015/01/08/%E6%98%8E%E6%9C%88%E4%BE%9D%E6%97%A7%E7%85%A7%E6%99%B4%E7%AA%97/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="萧">
+      <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="——╅ 萧 ☯ ℡">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2015/01/08/%E6%98%8E%E6%9C%88%E4%BE%9D%E6%97%A7%E7%85%A7%E6%99%B4%E7%AA%97/" class="post-title-link" itemprop="url">明月依旧照晴窗</a>
+        </h1>
+
+        <div class="post-meta">
+          <!-- 设置置顶标志 -->
+          
+          <!-- 设置精品标志 -->
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2015-01-08 00:00:00" itemprop="dateCreated datePublished" datetime="2015-01-08T00:00:00+08:00">2015-01-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2016-02-13 20:51:34" itemprop="dateModified" datetime="2016-02-13T20:51:34+08:00">2016-02-13</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/" itemprop="url" rel="index">
+                    <span itemprop="name">美文欣赏</span>
+                  </a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2015/01/08/%E6%98%8E%E6%9C%88%E4%BE%9D%E6%97%A7%E7%85%A7%E6%99%B4%E7%AA%97/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2015/01/08/%E6%98%8E%E6%9C%88%E4%BE%9D%E6%97%A7%E7%85%A7%E6%99%B4%E7%AA%97/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.5k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><img src="/static/images/2015-01-08/01.jpg" alt="01"></p>
+<p>&#160; &#160; &#160; &#160;心里，一直是渴望温暖的，无论是在无人的路上，还是在萧瑟的季节，我都依着阳光而行，冬真的来了，季节的辗转，谁又能阻挡的了呢？寒来暑往，草木荣枯，都是自然，北方的冬天，有着难以阻挡的的寒意，却也是清清爽爽。</p>
+          
+          
+          
+          
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2015/01/08/%E6%98%8E%E6%9C%88%E4%BE%9D%E6%97%A7%E7%85%A7%E6%99%B4%E7%AA%97/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <!-- 文章后添加结束标语 -->
+    <div>
+      
+    </div>
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/12/31/%E6%8B%A9%E4%B8%80%E5%9F%8E%E7%BB%88%E8%80%81-%E9%81%87%E4%B8%80%E4%BA%BA%E7%99%BD%E9%A6%96/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="萧">
       <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
     </span>
@@ -322,13 +445,6 @@
             </span>
 
           
-            <span id="/2014/12/31/%E6%8B%A9%E4%B8%80%E5%9F%8E%E7%BB%88%E8%80%81-%E9%81%87%E4%B8%80%E4%BA%BA%E7%99%BD%E9%A6%96/" class="post-meta-item leancloud_visitors" data-flag-title="择一城终老，遇一人白首" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -370,6 +486,10 @@
           <p>&#160; &#160; &#160; &#160;时光静好，与君语；细水长流，与君同；繁华落尽，与君老。想来这一生，总会有那么一个人，牵着你的手，将爱融入生命，倾一世温柔，与你一起待霜染白发，陪你看细水长流。</p>
 <p>&#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;</p>
 <p><img src="/static/images/2014-12-31/01.jpg" alt="01"></p>
+          
+          
+          
+          
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2014/12/31/%E6%8B%A9%E4%B8%80%E5%9F%8E%E7%BB%88%E8%80%81-%E9%81%87%E4%B8%80%E4%BA%BA%E7%99%BD%E9%A6%96/#more" rel="contents">
@@ -404,7 +524,7 @@
     <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/12/21/%E7%9B%AE%E4%B8%AD%E6%9C%89%E4%BA%BA-%E5%BF%83%E4%B8%AD%E6%9C%89%E5%BA%A6/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="萧">
       <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
     </span>
@@ -451,13 +571,6 @@
             </span>
 
           
-            <span id="/2014/12/21/%E7%9B%AE%E4%B8%AD%E6%9C%89%E4%BA%BA-%E5%BF%83%E4%B8%AD%E6%9C%89%E5%BA%A6/" class="post-meta-item leancloud_visitors" data-flag-title="目中有人，心中有度" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -499,6 +612,10 @@
           <p><img src="/static/images/2014-12-21/01.jpg" alt="01"></p>
 <p>&#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;用自己的标准去评论一件事，</p>
 <p>&#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;事事都不完美；</p>
+          
+          
+          
+          
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2014/12/21/%E7%9B%AE%E4%B8%AD%E6%9C%89%E4%BA%BA-%E5%BF%83%E4%B8%AD%E6%9C%89%E5%BA%A6/#more" rel="contents">
@@ -533,7 +650,7 @@
     <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/12/18/%E6%B0%B4%E4%B8%8D%E6%B4%97%E6%B0%B4-%E5%B0%98%E4%B8%8D%E6%9F%93%E5%B0%98/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="萧">
       <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
     </span>
@@ -580,13 +697,6 @@
             </span>
 
           
-            <span id="/2014/12/18/%E6%B0%B4%E4%B8%8D%E6%B4%97%E6%B0%B4-%E5%B0%98%E4%B8%8D%E6%9F%93%E5%B0%98/" class="post-meta-item leancloud_visitors" data-flag-title="水不洗水，尘不染尘" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -628,6 +738,10 @@
           <p><img src="/static/images/2014-12-18/01.jpg" alt="01"></p>
 <p>&#160; &#160; &#160; &#160;你的选择，就是你的世界；你的世界，就是你的选择。人生充满选择，所以人生充满变数。关键的选择决定一生，细小的选择影响心情。</p>
 <p>&#160; &#160; &#160; &#160;不要抱怨，抱怨就是一种选择；要努力改变，这才是正确的选择。过去的选择造就了现在，现在的选择决定未来。无论怎样，学会积极吸收正能量，这是关乎一生的选择。</p>
+          
+          
+          
+          
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2014/12/18/%E6%B0%B4%E4%B8%8D%E6%B4%97%E6%B0%B4-%E5%B0%98%E4%B8%8D%E6%9F%93%E5%B0%98/#more" rel="contents">
@@ -662,7 +776,7 @@
     <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/12/07/%E5%86%AC%E6%99%A8%E9%97%B2%E6%80%9D/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="萧">
       <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
     </span>
@@ -709,13 +823,6 @@
             </span>
 
           
-            <span id="/2014/12/07/%E5%86%AC%E6%99%A8%E9%97%B2%E6%80%9D/" class="post-meta-item leancloud_visitors" data-flag-title="冬晨闲思" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -756,6 +863,10 @@
       
           <p>&#160; &#160; &#160; &#160;文/夏雨</p>
 <p>&#160; &#160; &#160; &#160;初冬的清晨，温婉而静寂。一个人，一杯茶，一段音乐，静享一段独处的时光。坐在屏前，敲下自己喜欢的文字，然后让一颗心随着音乐沉醉。一缕思绪便在心中弥漫开来。在这纷扰的尘世中，能够将一颗心安放在文字里，让一些人住进我的文字中，于我，已然是满心欢喜。</p>
+          
+          
+          
+          
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2014/12/07/%E5%86%AC%E6%99%A8%E9%97%B2%E6%80%9D/#more" rel="contents">
@@ -790,7 +901,7 @@
     <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/11/27/%E4%BA%BA%E7%94%9F%E4%B8%89%E5%A2%83%E7%95%8C/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="萧">
       <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
     </span>
@@ -837,13 +948,6 @@
             </span>
 
           
-            <span id="/2014/11/27/%E4%BA%BA%E7%94%9F%E4%B8%89%E5%A2%83%E7%95%8C/" class="post-meta-item leancloud_visitors" data-flag-title="人生三境界" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -885,6 +989,10 @@
           <p><img src="/static/images/2014-11-27/01.jpg" alt="01"></p>
 <h3 id="160-160-160-160-160-160-160-160-（一）"><a href="#160-160-160-160-160-160-160-160-（一）" class="headerlink" title="&#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;（一）"></a>&#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;（一）</h3><p>&#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;作者：池莉</p>
 <p>&#160; &#160; &#160; &#160;人生有三重境界，这三重境界可以用一段充满禅机的语言来说明，这段语言便是：看山是山，看水是水；看山不是山，看水不是水；看山还是山，看水还是水。</p>
+          
+          
+          
+          
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2014/11/27/%E4%BA%BA%E7%94%9F%E4%B8%89%E5%A2%83%E7%95%8C/#more" rel="contents">
@@ -919,7 +1027,7 @@
     <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/11/26/%E9%A3%8E%E9%9B%A8%E4%BA%BA%E7%94%9F-%E6%B7%A1%E7%84%B6%E7%9B%B8%E9%9A%8F/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="萧">
       <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
     </span>
@@ -966,13 +1074,6 @@
             </span>
 
           
-            <span id="/2014/11/26/%E9%A3%8E%E9%9B%A8%E4%BA%BA%E7%94%9F-%E6%B7%A1%E7%84%B6%E7%9B%B8%E9%9A%8F/" class="post-meta-item leancloud_visitors" data-flag-title="风雨人生，淡然相随" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -1012,6 +1113,10 @@
 
       
           <p><img src="/static/images/2014-11-26/01.jpg" alt="01"><br>&#160; &#160; &#160; &#160;人生一个梦，生活靠颗心，只要心态不老，只要信念不消，不管多远的路，都会有尽头；不论多深的痛，也会有结束。选择其实很简单，往自己心里感到踏实的地方走，静下心听自己的心声。</p>
+          
+          
+          
+          
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2014/11/26/%E9%A3%8E%E9%9B%A8%E4%BA%BA%E7%94%9F-%E6%B7%A1%E7%84%B6%E7%9B%B8%E9%9A%8F/#more" rel="contents">
@@ -1046,7 +1151,7 @@
     <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/11/18/%E4%BA%BA%E7%94%9F%E9%9C%80%E5%AE%BD%E5%AE%B9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="萧">
       <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
     </span>
@@ -1093,13 +1198,6 @@
             </span>
 
           
-            <span id="/2014/11/18/%E4%BA%BA%E7%94%9F%E9%9C%80%E5%AE%BD%E5%AE%B9/" class="post-meta-item leancloud_visitors" data-flag-title="人生需宽容" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -1139,6 +1237,10 @@
 
       
           <p><img src="/static/images/2014-11-18/01.jpg" alt="01"><br>&#160; &#160; &#160; &#160;宽容是一种美德。包容是一种胸怀。我曾看到一位老人的一首诗，他称赞：宽容是蔚蓝的大海，纳百川而清澈明净；宽容是高阔的天空，怀天下而不记仇恨怨愤；宽容是灿烂的阳光，送你甘霖送你和风；宽容是延续生命，生命的辉煌也只有闪烁的一瞬；宽容大度才能超越局限的自身，一语宽容，雨露缤纷，一生宽容，心系乾坤。</p>
+          
+          
+          
+          
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2014/11/18/%E4%BA%BA%E7%94%9F%E9%9C%80%E5%AE%BD%E5%AE%B9/#more" rel="contents">
@@ -1173,7 +1275,7 @@
     <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/11/12/%E4%B8%8D%E8%A7%81%E6%AD%A4%E6%96%87-%E9%81%97%E6%86%BE%E7%BB%88%E7%94%9F/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="萧">
       <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
     </span>
@@ -1220,13 +1322,6 @@
             </span>
 
           
-            <span id="/2014/11/12/%E4%B8%8D%E8%A7%81%E6%AD%A4%E6%96%87-%E9%81%97%E6%86%BE%E7%BB%88%E7%94%9F/" class="post-meta-item leancloud_visitors" data-flag-title="不见此文，终身遗憾！" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -1268,6 +1363,10 @@
           <p>1.命运 </p>
 <p>命里一尺，难求一丈，中国的老俗话颇有道理，没有必要做无谓的抗争，老天爷早为你安排好了一切，该啥样就啥样了。</p>
 <p><img src="/static/images/2014-11-12/01.jpg" alt="01"></p>
+          
+          
+          
+          
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2014/11/12/%E4%B8%8D%E8%A7%81%E6%AD%A4%E6%96%87-%E9%81%97%E6%86%BE%E7%BB%88%E7%94%9F/#more" rel="contents">
@@ -1302,7 +1401,7 @@
     <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/11/08/%E4%BA%BA%E7%94%9F%E5%A4%A9%E5%9C%B0%E9%97%B4-%E5%BF%BD%E5%A6%82%E8%BF%9C%E8%A1%8C%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="萧">
       <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
     </span>
@@ -1349,13 +1448,6 @@
             </span>
 
           
-            <span id="/2014/11/08/%E4%BA%BA%E7%94%9F%E5%A4%A9%E5%9C%B0%E9%97%B4-%E5%BF%BD%E5%A6%82%E8%BF%9C%E8%A1%8C%E5%AE%A2/" class="post-meta-item leancloud_visitors" data-flag-title="人生天地间，忽如远行客" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
   
   <span class="post-meta-item">
     
@@ -1396,136 +1488,13 @@
       
           <p><img src="/static/images/2014-11-08/01.jpg" alt="01"><br>&#160; &#160; &#160; &#160;人生，就是一场修行，生活最好的状态是什么，有人说淡然，有人说是精致，其实，生命最好的活法，就是顺其自然的生活。</p>
 <p>&#160; &#160; &#160; &#160;——题记</p>
+          
+          
+          
+          
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2014/11/08/%E4%BA%BA%E7%94%9F%E5%A4%A9%E5%9C%B0%E9%97%B4-%E5%BF%BD%E5%A6%82%E8%BF%9C%E8%A1%8C%E5%AE%A2/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <!-- 文章后添加结束标语 -->
-    <div>
-      
-    </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://blog.seirhsiao.com/2014/10/18/%E6%B6%88%E8%B4%B9%E7%9A%84%E5%88%86%E7%B1%BB/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.jpg">
-      <meta itemprop="name" content="萧">
-      <meta itemprop="description" content="佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="——╅ 萧 ☯ ℡">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2014/10/18/%E6%B6%88%E8%B4%B9%E7%9A%84%E5%88%86%E7%B1%BB/" class="post-title-link" itemprop="url">消费的分类</a>
-        </h1>
-
-        <div class="post-meta">
-          <!-- 设置置顶标志 -->
-          
-          <!-- 设置精品标志 -->
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2014-10-18 00:00:00" itemprop="dateCreated datePublished" datetime="2014-10-18T00:00:00+08:00">2014-10-18</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2016-02-02 21:22:06" itemprop="dateModified" datetime="2016-02-02T21:22:06+08:00">2016-02-02</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/" itemprop="url" rel="index">
-                    <span itemprop="name">理财入门</span>
-                  </a>
-                </span>
-            </span>
-
-          
-            <span id="/2014/10/18/%E6%B6%88%E8%B4%B9%E7%9A%84%E5%88%86%E7%B1%BB/" class="post-meta-item leancloud_visitors" data-flag-title="消费的分类" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2014/10/18/%E6%B6%88%E8%B4%B9%E7%9A%84%E5%88%86%E7%B1%BB/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2014/10/18/%E6%B6%88%E8%B4%B9%E7%9A%84%E5%88%86%E7%B1%BB/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>357</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><img src="/static/images/books/09.jpg" alt="09"><br>&#160; &#160; &#160; &#160;把消费分类，才能更好的把握哪些是必要的消费支出，哪些是非必要消费支出，然后才能有的放矢，既能省钱又不影响生活质量。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2014/10/18/%E6%B6%88%E8%B4%B9%E7%9A%84%E5%88%86%E7%B1%BB/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1590,8 +1559,11 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="萧"
-      src="/uploads/avatar.jpg">
+    <a href="/">
+      <img class="site-author-image" itemprop="image"
+           src="/images/avatar.jpg"
+           alt="萧" />
+   </a>
   <p class="site-author-name" itemprop="name">萧</p>
   <div class="site-description" itemprop="description">佛为心，道为骨，儒为表，大度看世界。技在手，能在身，思在脑，从容过生活。三千年读史，不外功名利禄；九万里悟道，终归诗酒田园</div>
 </div>
@@ -1671,12 +1643,64 @@
   </div>
 
       </div>
-     <!-- 侧栏加入已运行的时间 -->
+      
+      <!-- 添加近期文章 -->
+      
+        <div class="links-of-blogroll motion-element links-of-blogroll-block">
+          <div class="links-of-blogroll-title">
+            <!-- modify icon to fire by szw -->
+            <i class="fa fa-history fa-" aria-hidden="true"></i>
+             近期文章
+          </div>
+           <ul class="links-of-blogroll-list">
+            
+            
+             <li>
+               <a href="/" title="" target="_blank"></a>
+             </li>
+            
+             <li>
+               <a href="/" title="" target="_blank"></a>
+             </li>
+            
+             <li>
+               <a href="/" title="" target="_blank"></a>
+             </li>
+            
+             <li>
+               <a href="/" title="" target="_blank"></a>
+             </li>
+            
+             <li>
+               <a href="/" title="" target="_blank"></a>
+             </li>
+            
+           </ul>
+         </div>
+       
+
+      
+         <!-- 球形标签云 -->
+         
+            <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+            <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+            <div class="widget-wrap">
+              <h3 class="widget-title"></h3>
+              <div id="myCanvasContainer" class="widget tagcloud">
+                  <canvas width="200" height="200" id="resCanvas" style="width=100%">
+                      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%BA%E7%89%A9/" rel="tag">人物</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%BA%E7%94%9F/" rel="tag">人生</a><span class="tag-list-count">34</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BF%AE%E5%BF%83/" rel="tag">修心</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%A5%E9%97%A8/" rel="tag">入门</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8A%B1%E5%BF%97/" rel="tag">励志</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8E%86%E5%8F%B2/" rel="tag">历史</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9B%9E%E5%BF%86/" rel="tag">回忆</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%A7%E5%AD%A6/" rel="tag">大学</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B1%95%E6%9C%9B/" rel="tag">展望</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B1%B1%E6%B0%B4/" rel="tag">山水</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BF%83%E6%83%85/" rel="tag">心情</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BF%83%E8%AF%AD/" rel="tag">心语</a><span class="tag-list-count">24</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%83%85%E6%84%9F/" rel="tag">情感</a><span class="tag-list-count">23</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%84%9F%E6%80%80/" rel="tag">感怀</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%95%E8%B5%84/" rel="tag">投资</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%A5%E5%91%8A/" rel="tag">报告</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%A3%E6%96%87/" rel="tag">散文</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%B6%E5%85%89/" rel="tag">时光</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AF%95%E4%B8%9A/" rel="tag">毕业</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B6%88%E8%B4%B9/" rel="tag">消费</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%90%86%E8%B4%A2/" rel="tag">理财</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E8%A7%86%E5%89%A7/" rel="tag">电视剧</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A6%BB%E5%88%AB/" rel="tag">离别</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AB%8B%E5%BF%97/" rel="tag">立志</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BE%8E%E6%96%87/" rel="tag">美文</a><span class="tag-list-count">26</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%B0%E8%B4%A6/" rel="tag">记账</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AF%97%E6%AD%8C/" rel="tag">诗歌</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B4%A2%E5%AF%8C/" rel="tag">财富</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BD%BB%E9%9F%B3%E4%B9%90/" rel="tag">轻音乐</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BF%BD%E6%B1%82/" rel="tag">追求</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%94%BB%E7%82%BC/" rel="tag">锻炼</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9F%B3%E4%B9%90/" rel="tag">音乐</a><span class="tag-list-count">1</span></li></ul>
+                  </canvas>
+              </div>
+            </div>
+          
+      
+      
+      <!-- 侧栏加入已运行的时间 -->
      <div id="days"></div>
 <script>
 function show_date_time(){
     window.setTimeout("show_date_time()", 1000);
-    BirthDay=new Date("05/20/2018 18:13:14");
+    BirthDay=new Date("05/27/2017 15:13:14");
     today=new Date();
     timeold=(today.getTime()-BirthDay.getTime());
     sectimeold=timeold/1000
@@ -1699,13 +1723,304 @@ function setzero(i) {
 }
 show_date_time();
 </script>
+
      <!-- 加粒子时钟特效 -->
-     <div id="">
+     <!-- canvas粒子时钟 https://www.cnblogs.com/xiaohuochai/p/6368039.html
+  https://www.html5tricks.com/html5-canvas-dance-time.html
+ -->
+<div id="">
   <canvas id="canvas" style="width:60%;">
 </div>
+<script>
+(function(){
+  var WINDOW_WIDTH = 820;
+  		var WINDOW_HEIGHT = 250;
+  		var RADIUS = 7; //球半径
+  		var NUMBER_GAP = 10; //数字之间的间隙
+  		var u=0.65; //碰撞能量损耗系数
+  		var context; //Canvas绘制上下文
+  		var balls = []; //存储彩色的小球
+  		const colors = ["#33B5E5","#0099CC","#AA66CC","#9933CC","#99CC00","#669900","#FFBB33","#FF8800","#FF4444","#CC0000"]; //彩色小球的颜色
+  		var currentNums = []; //屏幕显示的8个字符
+  		var digit =
+                  [
+                      [
+                          [0,0,1,1,1,0,0],
+                          [0,1,1,0,1,1,0],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [0,1,1,0,1,1,0],
+                          [0,0,1,1,1,0,0]
+                      ],//0
+                      [
+                          [0,0,0,1,1,0,0],
+                          [0,1,1,1,1,0,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,0,1,1,0,0],
+                          [1,1,1,1,1,1,1]
+                      ],//1
+                      [
+                          [0,1,1,1,1,1,0],
+                          [1,1,0,0,0,1,1],
+                          [0,0,0,0,0,1,1],
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,1,1,0,0,0],
+                          [0,1,1,0,0,0,0],
+                          [1,1,0,0,0,0,0],
+                          [1,1,0,0,0,1,1],
+                          [1,1,1,1,1,1,1]
+                      ],//2
+                      [
+                          [1,1,1,1,1,1,1],
+                          [0,0,0,0,0,1,1],
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,1,1,1,0,0],
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,0,0,1,1],
+                          [0,0,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [0,1,1,1,1,1,0]
+                      ],//3
+                      [
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,1,1,1,0],
+                          [0,0,1,1,1,1,0],
+                          [0,1,1,0,1,1,0],
+                          [1,1,0,0,1,1,0],
+                          [1,1,1,1,1,1,1],
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,1,1,1,1]
+                      ],//4
+                      [
+                          [1,1,1,1,1,1,1],
+                          [1,1,0,0,0,0,0],
+                          [1,1,0,0,0,0,0],
+                          [1,1,1,1,1,1,0],
+                          [0,0,0,0,0,1,1],
+                          [0,0,0,0,0,1,1],
+                          [0,0,0,0,0,1,1],
+                          [0,0,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [0,1,1,1,1,1,0]
+                      ],//5
+                      [
+                          [0,0,0,0,1,1,0],
+                          [0,0,1,1,0,0,0],
+                          [0,1,1,0,0,0,0],
+                          [1,1,0,0,0,0,0],
+                          [1,1,0,1,1,1,0],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [0,1,1,1,1,1,0]
+                      ],//6
+                      [
+                          [1,1,1,1,1,1,1],
+                          [1,1,0,0,0,1,1],
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,0,1,1,0,0],
+                          [0,0,1,1,0,0,0],
+                          [0,0,1,1,0,0,0],
+                          [0,0,1,1,0,0,0],
+                          [0,0,1,1,0,0,0]
+                      ],//7
+                      [
+                          [0,1,1,1,1,1,0],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [0,1,1,1,1,1,0],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [0,1,1,1,1,1,0]
+                      ],//8
+                      [
+                          [0,1,1,1,1,1,0],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [1,1,0,0,0,1,1],
+                          [0,1,1,1,0,1,1],
+                          [0,0,0,0,0,1,1],
+                          [0,0,0,0,0,1,1],
+                          [0,0,0,0,1,1,0],
+                          [0,0,0,1,1,0,0],
+                          [0,1,1,0,0,0,0]
+                      ],//9
+                      [
+                          [0,0,0,0],
+                          [0,0,0,0],
+                          [0,1,1,0],
+                          [0,1,1,0],
+                          [0,0,0,0],
+                          [0,0,0,0],
+                          [0,1,1,0],
+                          [0,1,1,0],
+                          [0,0,0,0],
+                          [0,0,0,0]
+                      ]//:
+                  ];
 
-<!--粒子时钟js-->
-<script type="text/javascript" src="/js/src/canvas-dance-time.js"></script>
+  		function drawDatetime(cxt){
+  			var nums = [];
+
+  			context.fillStyle="#005eac"
+  			var date = new Date();
+  			var offsetX = 70, offsetY = 30;
+  			var hours = date.getHours();
+  			var num1 = Math.floor(hours/10);
+  			var num2 = hours%10;
+  			nums.push({num: num1});
+  			nums.push({num: num2});
+  			nums.push({num: 10}); //冒号
+  			var minutes = date.getMinutes();
+  			var num1 = Math.floor(minutes/10);
+  			var num2 = minutes%10;
+  			nums.push({num: num1});
+  			nums.push({num: num2});
+  			nums.push({num: 10}); //冒号
+  			var seconds = date.getSeconds();
+  			var num1 = Math.floor(seconds/10);
+  			var num2 = seconds%10;
+  			nums.push({num: num1});
+  			nums.push({num: num2});
+
+  			for(var x = 0;x<nums.length;x++){
+  				nums[x].offsetX = offsetX;
+  				offsetX = drawSingleNumber(offsetX,offsetY, nums[x].num,cxt);
+  				//两个数字连一块，应该间隔一些距离
+  				if(x<nums.length-1){
+  					if((nums[x].num!=10) &&(nums[x+1].num!=10)){
+  						offsetX+=NUMBER_GAP;
+  					}
+  				}
+  			}
+
+  			//说明这是初始化
+  			if(currentNums.length ==0){
+  				currentNums = nums;
+  			}else{
+  				//进行比较
+  				for(var index = 0;index<currentNums.length;index++){
+  					if(currentNums[index].num!=nums[index].num){
+  						//不一样时，添加彩色小球
+  						addBalls(nums[index]);
+  						currentNums[index].num=nums[index].num;
+  					}
+  				}
+  			}
+  			renderBalls(cxt);
+  			updateBalls();
+
+  			return date;
+  		}
+
+  		function addBalls (item) {
+  			var num = item.num;
+  			var numMatrix = digit[num];
+  			for(var y = 0;y<numMatrix.length;y++){
+  				for(var x = 0;x<numMatrix[y].length;x++){
+  					if(numMatrix[y][x]==1){
+  						var ball={
+  							offsetX:item.offsetX+RADIUS+RADIUS*2*x,
+  							offsetY:30+RADIUS+RADIUS*2*y,
+  							color:colors[Math.floor(Math.random()*colors.length)],
+  							g:1.5+Math.random(),
+  							vx:Math.pow(-1, Math.ceil(Math.random()*10))*4+Math.random(),
+  							vy:-5
+  						}
+  						balls.push(ball);
+  					}
+  				}
+  			}
+  		}
+
+  		function renderBalls(cxt){
+  			for(var index = 0;index<balls.length;index++){
+  				cxt.beginPath();
+  				cxt.fillStyle=balls[index].color;
+  				cxt.arc(balls[index].offsetX, balls[index].offsetY, RADIUS, 0, 2*Math.PI);
+  				cxt.fill();
+  			}
+  		}
+
+  		function updateBalls () {
+  			var i =0;
+  			for(var index = 0;index<balls.length;index++){
+  				var ball = balls[index];
+  				ball.offsetX += ball.vx;
+  				ball.offsetY += ball.vy;
+  				ball.vy+=ball.g;
+  				if(ball.offsetY > (WINDOW_HEIGHT-RADIUS)){
+  					ball.offsetY= WINDOW_HEIGHT-RADIUS;
+  					ball.vy=-ball.vy*u;
+  				}
+  				if(ball.offsetX>RADIUS&&ball.offsetX<(WINDOW_WIDTH-RADIUS)){
+
+  					balls[i]=balls[index];
+  					i++;
+  				}
+  			}
+  			//去除出边界的球
+  			for(;i<balls.length;i++){
+  				balls.pop();
+  			}
+  		}
+  		function drawSingleNumber(offsetX, offsetY, num, cxt){
+  			var numMatrix = digit[num];
+  			for(var y = 0;y<numMatrix.length;y++){
+  				for(var x = 0;x<numMatrix[y].length;x++){
+  					if(numMatrix[y][x]==1){
+  						cxt.beginPath();
+  						cxt.arc(offsetX+RADIUS+RADIUS*2*x,offsetY+RADIUS+RADIUS*2*y,RADIUS,0,2*Math.PI);
+  						cxt.fill();
+  					}
+  				}
+  			}
+  			cxt.beginPath();
+  			offsetX += numMatrix[0].length*RADIUS*2;
+  			return offsetX;
+  		}
+
+  		var canvas = document.getElementById("canvas");
+  		canvas.width=WINDOW_WIDTH;
+  		canvas.height=WINDOW_HEIGHT;
+  		context = canvas.getContext("2d");
+
+  		//记录当前绘制的时刻
+  		var currentDate = new Date();
+
+  		setInterval(function(){
+  			//清空整个Canvas，重新绘制内容
+  			context.clearRect(0, 0, context.canvas.width, context.canvas.height);
+  			drawDatetime(context);
+  		}, 50)
+})();
+</script>
+
+     <!--人体时钟背景透明
+        <script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script>
+     -->
+     <!--人体时钟背景白
+        <script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_wh.js"></script>
+     -->
     </div>
   </aside>
   <div id="sidebar-dimmer"></div>
@@ -1744,102 +2059,30 @@ show_date_time();
   </div>
 
         
+<div class="busuanzi-count">
+  <script pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      
+      <span class="site-uv">
+       我的第 <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 位朋友，
+      </span>
+    </span>
+
+
+
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+     
+      <span class="site-pv">
+       历经 <span class="busuanzi-value" id="busuanzi_value_site_pv"></span> 次回眸才与你相遇
+      </span>
+    </span>
+</div>
 
 
 
 
 
 
-  <script pjax>
-  function leancloudSelector(url) {
-    return document.getElementById(url).querySelector('.leancloud-visitors-count');
-  }
-  if (CONFIG.page.isPost) {
-    function addCount(Counter) {
-      var visitors = document.querySelector('.leancloud_visitors');
-      var url = visitors.getAttribute('id').trim();
-      var title = visitors.getAttribute('data-flag-title').trim();
-
-      Counter('get', `/classes/Counter?where=${JSON.stringify({ url })}`)
-        .then(response => response.json())
-        .then(({ results }) => {
-          if (results.length > 0) {
-            var counter = results[0];
-              leancloudSelector(url).innerText = counter.time + 1;
-            Counter('put', '/classes/Counter/' + counter.objectId, { time: { '__op': 'Increment', 'amount': 1 } })
-              .then(response => response.json())
-              .catch(error => {
-                console.log('Failed to save visitor count', error);
-              })
-          } else {
-              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
-              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
-            
-          }
-        })
-        .catch(error => {
-          console.log('LeanCloud Counter Error', error);
-        });
-    }
-  } else {
-    function showTime(Counter) {
-      var visitors = document.querySelectorAll('.leancloud_visitors');
-      var entries = [...visitors].map(element => {
-        return element.getAttribute('id').trim();
-      });
-
-      Counter('get', `/classes/Counter?where=${JSON.stringify({ url: { '$in': entries } })}`)
-        .then(response => response.json())
-        .then(({ results }) => {
-          if (results.length === 0) {
-            document.querySelectorAll('.leancloud_visitors .leancloud-visitors-count').forEach(element => {
-              element.innerText = 0;
-            });
-            return;
-          }
-          for (var i = 0; i < results.length; i++) {
-            var item = results[i];
-            var url = item.url;
-            var time = item.time;
-            leancloudSelector(url).innerText = time;
-          }
-          for (var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = leancloudSelector(url);
-            if (element.innerText == '') {
-              element.innerText = 0;
-            }
-          }
-        })
-        .catch(error => {
-          console.log('LeanCloud Counter Error', error);
-        });
-    }
-  }
-
-  fetch('https://app-router.leancloud.cn/2/route?appId=PFdiF3pQOKd2cMhsTRt7bDYT')
-    .then(response => response.json())
-    .then(({ api_server }) => {
-      var Counter = (method, url, data) => {
-        return fetch(`https://${api_server}/1.1${url}`, {
-          method: method,
-          headers: {
-            'X-LC-Id': 'PFdiF3pQOKd2cMhsTRt7bDYT',
-            'X-LC-Key': 'WprfuKVn4SHdhAU8UqjC0Fyb',
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(data)
-        });
-      };
-      if (CONFIG.page.isPost) {
-        const localhost = /http:\/\/(localhost|127.0.0.1|0.0.0.0)/;
-        if (localhost.test(document.URL)) return;
-        addCount(Counter);
-      } else if (document.querySelectorAll('.post-title-link').length >= 1) {
-        showTime(Counter);
-      }
-    });
-  </script>
 
 
 
@@ -2015,25 +2258,71 @@ NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', () =>
 
     </div>
 
-<!-- 点击爆炸效果 -->
+  <!-- 网页音乐播放器功能 -->
+  <link rel="stylesheet" href="/js/src/APlayer/dist/APlayer.min.css">
+  <div id="aplayer"></div>
+  <script type="text/javascript" src="/js/src/APlayer/dist/APlayer.min.js"></script>
+  <script type="text/javascript" src="/js/src/APlayer/dist/music.js"></script>
+
+  <!-- 崩溃欺骗 -->
+  <script type="text/javascript" src="/js/src/crash_cheat.js"></script>
+
   
-   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
-   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-   <script type="text/javascript" src="/js/src/fireworks.js"></script>
+   <!-- 点击爆炸效果 -->
+  
+      <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
+      <script src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+      <script type="text/javascript" src="/js/src/fireworks.min.js"></script>
   
 
-<!-- 网页音乐播放器功能 -->
-<link rel="stylesheet" href="/js/src/APlayer/dist/APlayer.min.css">
-<div id="aplayer"></div>
-<script type="text/javascript" src="/js/src/APlayer/dist/APlayer.min.js"></script>
-<script type="text/javascript" src="/js/src/APlayer/dist/music.js"></script>
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/love.min.js"></script>
 
-<!-- 崩溃欺骗 -->
-<script type="text/javascript" src="/js/src/crash_cheat.js"></script>
+  <!-- 分享到 -->
+  <script src="/lib/share/dist/js/social-share.min.js"></script>
 
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/clicklove.js"></script>
-<!-- 分享到 -->
-<script src="/lib/share/dist/js/social-share.min.js"></script>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"superSample":2,"position":"left","width":150,"height":300,"hOffset":0,"vOffset":-20},"mobile":{"show":false,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body>
+   
+    
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+  <script src="/js/src/activate-power-mode.min.js"></script>
+  <script>
+    POWERMODE.colorful = true;
+    POWERMODE.shake = false;
+    document.body.addEventListener('input', POWERMODE);
+  </script>
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment-precise-range-plugin@1.3.0/moment-precise-range.min.js"></script>
+    <script>
+      function timer() {
+        var ages = moment.preciseDiff(moment(),moment(20180118,"YYYYMMDD"));
+        //去除时分秒信息
+        ages = ages.replace(/\s?\d{0,2}\s+hours?/, "");
+        ages = ages.replace(/\s?\d{0,2}\s+minutes?/, "");
+        ages = ages.replace(/\s?\d{0,2}\s+seconds?/, "");
+        //将年月日转换为中文
+        ages = ages.replace(/years?/, "年");
+        ages = ages.replace(/months?/, "月");
+        ages = ages.replace(/days?/, "天");
+        ages = ages.replace(/\d+/g, '<span style="color:#1890ff">$&</span>');
+        span.innerHTML = `我已在此等候你 ${ages}`;
+      }
+      var span = document.createElement("span");
+      //插入到agesicon之后
+      var agesicon = document.querySelector(".footer-ages-icon");
+      document.querySelector(".copyright").insertBefore(span, agesicon.nextSibling);
+      timer();
+    </script>
+  
+   
+  <!-- 实现图片点击放大效果 -->
+  <script type="text/javascript" src="/js/src/image-scale.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
