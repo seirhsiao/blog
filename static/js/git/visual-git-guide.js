@@ -1,4 +1,4 @@
-<html><head></head><body></body></html><html><head></head><body>// Webkit browsers can't zoom properly with object tags.
+<html><head></head><body></body></html><html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script></head><body>// Webkit browsers can't zoom properly with object tags.
 if (navigator.userAgent.indexOf("AppleWebKit") > -1) {
   replacePNG = function(img, src) {
     var h = img.height, w = img.width;
