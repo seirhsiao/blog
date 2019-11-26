@@ -1,7 +1,8 @@
-# hexo robots.txt
 User-agent: *
 Allow: /
 Allow: /archives/
+Allow: /tags/
+Allow: /categories/
 
 Disallow: /vendors/
 Disallow: /js/
@@ -10,5 +11,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://blog.seirhsiao.com/sitemap.xml
-Sitemap: http://blog.seirhsiao.com/baidusitemap.xml
+Sitemap: http://yoursite.com/sitemap.xml
+Sitemap: http://yoursite.com/baidusitemap.xml

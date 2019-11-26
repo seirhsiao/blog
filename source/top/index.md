@@ -1,0 +1,45 @@
+---
+title: 热门文章Top 10 /* 可以不为 TopX，随便取 */
+comments: false
+date: 2018-10-30 00:54:50
+keywords: top,文章阅读量排行榜
+description: 博客文章阅读量排行榜
+---
+
+
+<div id="post-rank"></div>
+
+<script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.10.0/dist/av-min.js"></script>
+<!-- <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script> -->
+<script type="text/javascript">
+  var APP_ID = 'PFdiF3pQOKd2cMhsTRt7bDYT';
+  var APP_KEY = 'WprfuKVn4SHdhAU8UqjC0Fyb';
+  //AV.initialize(APP_ID, APP_KEY);
+  AV.init({
+    appId: APP_ID,
+    appKey: APP_KEY
+  });
+
+  var query = new AV.Query('Counter');//表名
+  query.descending('time'); //结果按阅读次数降序排序
+  query.limit(10);  //最终只返回10条结果
+  query.find().then( response => {
+    var content = response.reduce( (accum, {attributes}) => {
+      accum += `<p><div class="prefix">热度 ${attributes.time} ℃</div><div><a href="${attributes.url}">${attributes.title}</a></div></p>`
+      return accum;
+    },"")
+    document.querySelector("#post-rank").innerHTML = content;
+  })
+  .catch( error => {
+    console.log(error);
+  });
+</script>
+
+<style type="text/css">
+  #post-rank {
+    text-align: center;
+  }
+  #post-rank .prefix {
+    color: #ff4d4f;
+  }
+</style>

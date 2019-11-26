@@ -1,1 +1,0 @@
-var a_idx=0;jQuery(document).ready(function(i){i("body").click(function(a){var e=new Array("喜欢我","不喜欢我"),n=i("<span/>").text(e[a_idx]),o=a.pageX,t=a.pageY;n.css({"z-index":99999,top:t-28,left:o-8*e[a_idx].length,position:"absolute",color:"#ff7a45"}),i("body").append(n),n.animate({top:t-180,opacity:0},1500,function(){n.remove()}),a_idx=(a_idx+1)%e.length})});
