@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>——╅ 萧 ☯ ℡</title>
   <subtitle>一花一世界，一叶一追寻。一曲一场叹，一生为一人。</subtitle>
-  <link href="http://blog.seirhsiao.com/atom.xml" rel="self"/>
+  <link href="http://blog.hsiao.xyz/atom.xml" rel="self"/>
   
-  <link href="http://blog.seirhsiao.com/"/>
+  <link href="http://blog.hsiao.xyz/"/>
   <updated>2016-08-26T11:46:14.000Z</updated>
-  <id>http://blog.seirhsiao.com/</id>
+  <id>http://blog.hsiao.xyz/</id>
   
   <author>
     <name>萧</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>腹有诗书气自华，最是书香能致远</title>
-    <link href="http://blog.seirhsiao.com/2016/08/26/%E8%85%B9%E6%9C%89%E8%AF%97%E4%B9%A6%E6%B0%94%E8%87%AA%E5%8D%8E%EF%BC%8C%E6%9C%80%E6%98%AF%E4%B9%A6%E9%A6%99%E8%83%BD%E8%87%B4%E8%BF%9C/"/>
-    <id>http://blog.seirhsiao.com/2016/08/26/腹有诗书气自华，最是书香能致远/</id>
+    <link href="http://blog.hsiao.xyz/2016/08/26/%E8%85%B9%E6%9C%89%E8%AF%97%E4%B9%A6%E6%B0%94%E8%87%AA%E5%8D%8E%EF%BC%8C%E6%9C%80%E6%98%AF%E4%B9%A6%E9%A6%99%E8%83%BD%E8%87%B4%E8%BF%9C/"/>
+    <id>http://blog.hsiao.xyz/2016/08/26/腹有诗书气自华，最是书香能致远/</id>
     <published>2016-08-25T16:00:00.000Z</published>
     <updated>2016-08-26T11:46:14.000Z</updated>
     
@@ -47,21 +47,21 @@
     
     </summary>
     
-      <category term="心情散文" scheme="http://blog.seirhsiao.com/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
+      <category term="心情散文" scheme="http://blog.hsiao.xyz/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心情" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="散文" scheme="http://blog.seirhsiao.com/tags/%E6%95%A3%E6%96%87/"/>
+      <category term="散文" scheme="http://blog.hsiao.xyz/tags/%E6%95%A3%E6%96%87/"/>
     
   </entry>
   
   <entry>
     <title>缘起缘灭缘成空，花开花落花归尘</title>
-    <link href="http://blog.seirhsiao.com/2016/06/26/%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98/"/>
-    <id>http://blog.seirhsiao.com/2016/06/26/缘起缘灭缘成空，花开花落花归尘/</id>
+    <link href="http://blog.hsiao.xyz/2016/06/26/%E7%BC%98%E8%B5%B7%E7%BC%98%E7%81%AD%E7%BC%98%E6%88%90%E7%A9%BA%EF%BC%8C%E8%8A%B1%E5%BC%80%E8%8A%B1%E8%90%BD%E8%8A%B1%E5%BD%92%E5%B0%98/"/>
+    <id>http://blog.hsiao.xyz/2016/06/26/缘起缘灭缘成空，花开花落花归尘/</id>
     <published>2016-06-25T16:00:00.000Z</published>
     <updated>2016-06-26T06:31:28.000Z</updated>
     
@@ -109,21 +109,21 @@
     
     </summary>
     
-      <category term="清风诵雅" scheme="http://blog.seirhsiao.com/categories/%E6%B8%85%E9%A3%8E%E8%AF%B5%E9%9B%85/"/>
+      <category term="清风诵雅" scheme="http://blog.hsiao.xyz/categories/%E6%B8%85%E9%A3%8E%E8%AF%B5%E9%9B%85/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="诗歌" scheme="http://blog.seirhsiao.com/tags/%E8%AF%97%E6%AD%8C/"/>
+      <category term="诗歌" scheme="http://blog.hsiao.xyz/tags/%E8%AF%97%E6%AD%8C/"/>
     
-      <category term="心情" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E6%83%85/"/>
     
   </entry>
   
   <entry>
     <title>梦里繁华终散尽,所谓伊人终成空</title>
-    <link href="http://blog.seirhsiao.com/2016/03/25/%E6%A2%A6%E9%87%8C%E7%B9%81%E5%8D%8E%E7%BB%88%E6%95%A3%E5%B0%BD,%E6%89%80%E8%B0%93%E4%BC%8A%E4%BA%BA%E7%BB%88%E6%88%90%E7%A9%BA/"/>
-    <id>http://blog.seirhsiao.com/2016/03/25/梦里繁华终散尽,所谓伊人终成空/</id>
+    <link href="http://blog.hsiao.xyz/2016/03/25/%E6%A2%A6%E9%87%8C%E7%B9%81%E5%8D%8E%E7%BB%88%E6%95%A3%E5%B0%BD,%E6%89%80%E8%B0%93%E4%BC%8A%E4%BA%BA%E7%BB%88%E6%88%90%E7%A9%BA/"/>
+    <id>http://blog.hsiao.xyz/2016/03/25/梦里繁华终散尽,所谓伊人终成空/</id>
     <published>2016-03-24T16:00:00.000Z</published>
     <updated>2016-03-26T11:33:04.000Z</updated>
     
@@ -180,21 +180,21 @@
     
     </summary>
     
-      <category term="清风诵雅" scheme="http://blog.seirhsiao.com/categories/%E6%B8%85%E9%A3%8E%E8%AF%B5%E9%9B%85/"/>
+      <category term="清风诵雅" scheme="http://blog.hsiao.xyz/categories/%E6%B8%85%E9%A3%8E%E8%AF%B5%E9%9B%85/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="诗歌" scheme="http://blog.seirhsiao.com/tags/%E8%AF%97%E6%AD%8C/"/>
+      <category term="诗歌" scheme="http://blog.hsiao.xyz/tags/%E8%AF%97%E6%AD%8C/"/>
     
-      <category term="心情" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E6%83%85/"/>
     
   </entry>
   
   <entry>
     <title>那些年，无法铭记的电视剧 -- 《再次微笑》</title>
-    <link href="http://blog.seirhsiao.com/2016/03/18/%E9%82%A3%E4%BA%9B%E5%B9%B4%EF%BC%8C%E6%97%A0%E6%B3%95%E9%93%AD%E8%AE%B0%E7%9A%84%E7%94%B5%E8%A7%86%E5%89%A7%20--%20%E3%80%8A%E5%86%8D%E6%AC%A1%E5%BE%AE%E7%AC%91%E3%80%8B/"/>
-    <id>http://blog.seirhsiao.com/2016/03/18/那些年，无法铭记的电视剧 -- 《再次微笑》/</id>
+    <link href="http://blog.hsiao.xyz/2016/03/18/%E9%82%A3%E4%BA%9B%E5%B9%B4%EF%BC%8C%E6%97%A0%E6%B3%95%E9%93%AD%E8%AE%B0%E7%9A%84%E7%94%B5%E8%A7%86%E5%89%A7%20--%20%E3%80%8A%E5%86%8D%E6%AC%A1%E5%BE%AE%E7%AC%91%E3%80%8B/"/>
+    <id>http://blog.hsiao.xyz/2016/03/18/那些年，无法铭记的电视剧 -- 《再次微笑》/</id>
     <published>2016-03-17T16:00:00.000Z</published>
     <updated>2016-03-19T11:35:06.000Z</updated>
     
@@ -234,23 +234,23 @@
     
     </summary>
     
-      <category term="经典回忆" scheme="http://blog.seirhsiao.com/categories/%E7%BB%8F%E5%85%B8%E5%9B%9E%E5%BF%86/"/>
+      <category term="经典回忆" scheme="http://blog.hsiao.xyz/categories/%E7%BB%8F%E5%85%B8%E5%9B%9E%E5%BF%86/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
-      <category term="回忆" scheme="http://blog.seirhsiao.com/tags/%E5%9B%9E%E5%BF%86/"/>
+      <category term="回忆" scheme="http://blog.hsiao.xyz/tags/%E5%9B%9E%E5%BF%86/"/>
     
-      <category term="电视剧" scheme="http://blog.seirhsiao.com/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"/>
+      <category term="电视剧" scheme="http://blog.hsiao.xyz/tags/%E7%94%B5%E8%A7%86%E5%89%A7/"/>
     
   </entry>
   
   <entry>
     <title>数风云人物，其名如诗画</title>
-    <link href="http://blog.seirhsiao.com/2016/03/11/%E6%95%B0%E9%A3%8E%E4%BA%91%E4%BA%BA%E7%89%A9%EF%BC%8C%E5%85%B6%E5%90%8D%E5%A6%82%E8%AF%97%E7%94%BB/"/>
-    <id>http://blog.seirhsiao.com/2016/03/11/数风云人物，其名如诗画/</id>
+    <link href="http://blog.hsiao.xyz/2016/03/11/%E6%95%B0%E9%A3%8E%E4%BA%91%E4%BA%BA%E7%89%A9%EF%BC%8C%E5%85%B6%E5%90%8D%E5%A6%82%E8%AF%97%E7%94%BB/"/>
+    <id>http://blog.hsiao.xyz/2016/03/11/数风云人物，其名如诗画/</id>
     <published>2016-03-10T16:00:00.000Z</published>
     <updated>2016-03-11T13:27:44.000Z</updated>
     
@@ -458,21 +458,21 @@
     
     </summary>
     
-      <category term="心情散文" scheme="http://blog.seirhsiao.com/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
+      <category term="心情散文" scheme="http://blog.hsiao.xyz/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="历史" scheme="http://blog.seirhsiao.com/tags/%E5%8E%86%E5%8F%B2/"/>
+      <category term="历史" scheme="http://blog.hsiao.xyz/tags/%E5%8E%86%E5%8F%B2/"/>
     
-      <category term="人物" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%89%A9/"/>
+      <category term="人物" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%89%A9/"/>
     
   </entry>
   
   <entry>
     <title>君子何所求</title>
-    <link href="http://blog.seirhsiao.com/2016/02/26/%E5%90%9B%E5%AD%90%E4%BD%95%E6%89%80%E6%B1%82/"/>
-    <id>http://blog.seirhsiao.com/2016/02/26/君子何所求/</id>
+    <link href="http://blog.hsiao.xyz/2016/02/26/%E5%90%9B%E5%AD%90%E4%BD%95%E6%89%80%E6%B1%82/"/>
+    <id>http://blog.hsiao.xyz/2016/02/26/君子何所求/</id>
     <published>2016-02-25T16:00:00.000Z</published>
     <updated>2016-06-18T02:02:18.000Z</updated>
     
@@ -501,21 +501,21 @@
     
     </summary>
     
-      <category term="心情散文" scheme="http://blog.seirhsiao.com/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
+      <category term="心情散文" scheme="http://blog.hsiao.xyz/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
-      <category term="追求" scheme="http://blog.seirhsiao.com/tags/%E8%BF%BD%E6%B1%82/"/>
+      <category term="追求" scheme="http://blog.hsiao.xyz/tags/%E8%BF%BD%E6%B1%82/"/>
     
   </entry>
   
   <entry>
     <title>精疲力尽，在所不惜</title>
-    <link href="http://blog.seirhsiao.com/2016/02/19/%E7%B2%BE%E7%96%B2%E5%8A%9B%E5%B0%BD%EF%BC%8C%E5%9C%A8%E6%89%80%E4%B8%8D%E6%83%9C/"/>
-    <id>http://blog.seirhsiao.com/2016/02/19/精疲力尽，在所不惜/</id>
+    <link href="http://blog.hsiao.xyz/2016/02/19/%E7%B2%BE%E7%96%B2%E5%8A%9B%E5%B0%BD%EF%BC%8C%E5%9C%A8%E6%89%80%E4%B8%8D%E6%83%9C/"/>
+    <id>http://blog.hsiao.xyz/2016/02/19/精疲力尽，在所不惜/</id>
     <published>2016-02-18T16:00:00.000Z</published>
     <updated>2016-02-20T09:26:10.000Z</updated>
     
@@ -842,19 +842,19 @@
     
     </summary>
     
-      <category term="每周一文" scheme="http://blog.seirhsiao.com/categories/%E6%AF%8F%E5%91%A8%E4%B8%80%E6%96%87/"/>
+      <category term="每周一文" scheme="http://blog.hsiao.xyz/categories/%E6%AF%8F%E5%91%A8%E4%B8%80%E6%96%87/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="锻炼" scheme="http://blog.seirhsiao.com/tags/%E9%94%BB%E7%82%BC/"/>
+      <category term="锻炼" scheme="http://blog.hsiao.xyz/tags/%E9%94%BB%E7%82%BC/"/>
     
   </entry>
   
   <entry>
     <title>以文为缘，伴我修行</title>
-    <link href="http://blog.seirhsiao.com/2016/02/14/%E4%BB%A5%E6%96%87%E4%B8%BA%E7%BC%98%EF%BC%8C%E4%BC%B4%E6%88%91%E4%BF%AE%E8%A1%8C/"/>
-    <id>http://blog.seirhsiao.com/2016/02/14/以文为缘，伴我修行/</id>
+    <link href="http://blog.hsiao.xyz/2016/02/14/%E4%BB%A5%E6%96%87%E4%B8%BA%E7%BC%98%EF%BC%8C%E4%BC%B4%E6%88%91%E4%BF%AE%E8%A1%8C/"/>
+    <id>http://blog.hsiao.xyz/2016/02/14/以文为缘，伴我修行/</id>
     <published>2016-02-13T16:00:00.000Z</published>
     <updated>2016-06-18T02:01:22.000Z</updated>
     
@@ -887,21 +887,21 @@
     
     </summary>
     
-      <category term="心情散文" scheme="http://blog.seirhsiao.com/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
+      <category term="心情散文" scheme="http://blog.hsiao.xyz/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
-      <category term="修心" scheme="http://blog.seirhsiao.com/tags/%E4%BF%AE%E5%BF%83/"/>
+      <category term="修心" scheme="http://blog.hsiao.xyz/tags/%E4%BF%AE%E5%BF%83/"/>
     
   </entry>
   
   <entry>
     <title>2015-2016年度个人投资理财总结报告</title>
-    <link href="http://blog.seirhsiao.com/2016/02/05/2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A/"/>
-    <id>http://blog.seirhsiao.com/2016/02/05/2015-2016年度个人投资理财总结报告/</id>
+    <link href="http://blog.hsiao.xyz/2016/02/05/2015-2016%E5%B9%B4%E5%BA%A6%E4%B8%AA%E4%BA%BA%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2%E6%80%BB%E7%BB%93%E6%8A%A5%E5%91%8A/"/>
+    <id>http://blog.hsiao.xyz/2016/02/05/2015-2016年度个人投资理财总结报告/</id>
     <published>2016-02-04T16:00:00.000Z</published>
     <updated>2016-02-12T00:17:30.000Z</updated>
     
@@ -949,23 +949,23 @@
     
     </summary>
     
-      <category term="投资理财" scheme="http://blog.seirhsiao.com/categories/%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2/"/>
+      <category term="投资理财" scheme="http://blog.hsiao.xyz/categories/%E6%8A%95%E8%B5%84%E7%90%86%E8%B4%A2/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="报告" scheme="http://blog.seirhsiao.com/tags/%E6%8A%A5%E5%91%8A/"/>
+      <category term="报告" scheme="http://blog.hsiao.xyz/tags/%E6%8A%A5%E5%91%8A/"/>
     
-      <category term="投资" scheme="http://blog.seirhsiao.com/tags/%E6%8A%95%E8%B5%84/"/>
+      <category term="投资" scheme="http://blog.hsiao.xyz/tags/%E6%8A%95%E8%B5%84/"/>
     
-      <category term="展望" scheme="http://blog.seirhsiao.com/tags/%E5%B1%95%E6%9C%9B/"/>
+      <category term="展望" scheme="http://blog.hsiao.xyz/tags/%E5%B1%95%E6%9C%9B/"/>
     
   </entry>
   
   <entry>
     <title>人生，择善人而交</title>
-    <link href="http://blog.seirhsiao.com/2015/08/05/%E4%BA%BA%E7%94%9F-%E6%8B%A9%E5%96%84%E4%BA%BA%E8%80%8C%E4%BA%A4/"/>
-    <id>http://blog.seirhsiao.com/2015/08/05/人生-择善人而交/</id>
+    <link href="http://blog.hsiao.xyz/2015/08/05/%E4%BA%BA%E7%94%9F-%E6%8B%A9%E5%96%84%E4%BA%BA%E8%80%8C%E4%BA%A4/"/>
+    <id>http://blog.hsiao.xyz/2015/08/05/人生-择善人而交/</id>
     <published>2015-08-04T16:00:00.000Z</published>
     <updated>2016-01-31T12:07:08.000Z</updated>
     
@@ -991,23 +991,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>聆听流淌着的忧伤</title>
-    <link href="http://blog.seirhsiao.com/2015/05/08/%E8%81%86%E5%90%AC%E6%B5%81%E6%B7%8C%E7%9D%80%E7%9A%84%E5%BF%A7%E4%BC%A4/"/>
-    <id>http://blog.seirhsiao.com/2015/05/08/聆听流淌着的忧伤/</id>
+    <link href="http://blog.hsiao.xyz/2015/05/08/%E8%81%86%E5%90%AC%E6%B5%81%E6%B7%8C%E7%9D%80%E7%9A%84%E5%BF%A7%E4%BC%A4/"/>
+    <id>http://blog.hsiao.xyz/2015/05/08/聆听流淌着的忧伤/</id>
     <published>2015-05-07T16:00:00.000Z</published>
     <updated>2016-02-12T00:28:36.000Z</updated>
     
@@ -1144,19 +1144,19 @@
     
     </summary>
     
-      <category term="音乐欣赏" scheme="http://blog.seirhsiao.com/categories/%E9%9F%B3%E4%B9%90%E6%AC%A3%E8%B5%8F/"/>
+      <category term="音乐欣赏" scheme="http://blog.hsiao.xyz/categories/%E9%9F%B3%E4%B9%90%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="音乐" scheme="http://blog.seirhsiao.com/tags/%E9%9F%B3%E4%B9%90/"/>
+      <category term="音乐" scheme="http://blog.hsiao.xyz/tags/%E9%9F%B3%E4%B9%90/"/>
     
-      <category term="轻音乐" scheme="http://blog.seirhsiao.com/tags/%E8%BD%BB%E9%9F%B3%E4%B9%90/"/>
+      <category term="轻音乐" scheme="http://blog.hsiao.xyz/tags/%E8%BD%BB%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>遇事,最有水平的处理方法</title>
-    <link href="http://blog.seirhsiao.com/2015/03/12/%E9%81%87%E4%BA%8B,%E6%9C%80%E6%9C%89%E6%B0%B4%E5%B9%B3%E7%9A%84%E5%A4%84%E7%90%86%E6%96%B9%E6%B3%95/"/>
-    <id>http://blog.seirhsiao.com/2015/03/12/遇事,最有水平的处理方法/</id>
+    <link href="http://blog.hsiao.xyz/2015/03/12/%E9%81%87%E4%BA%8B,%E6%9C%80%E6%9C%89%E6%B0%B4%E5%B9%B3%E7%9A%84%E5%A4%84%E7%90%86%E6%96%B9%E6%B3%95/"/>
+    <id>http://blog.hsiao.xyz/2015/03/12/遇事,最有水平的处理方法/</id>
     <published>2015-03-11T16:00:00.000Z</published>
     <updated>2016-02-11T10:43:32.000Z</updated>
     
@@ -1199,23 +1199,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>命里有时终需有</title>
-    <link href="http://blog.seirhsiao.com/2015/02/12/%E5%91%BD%E9%87%8C%E6%9C%89%E6%97%B6%E7%BB%88%E9%9C%80%E6%9C%89/"/>
-    <id>http://blog.seirhsiao.com/2015/02/12/命里有时终需有/</id>
+    <link href="http://blog.hsiao.xyz/2015/02/12/%E5%91%BD%E9%87%8C%E6%9C%89%E6%97%B6%E7%BB%88%E9%9C%80%E6%9C%89/"/>
+    <id>http://blog.hsiao.xyz/2015/02/12/命里有时终需有/</id>
     <published>2015-02-11T16:00:00.000Z</published>
     <updated>2016-02-13T12:38:38.000Z</updated>
     
@@ -1242,23 +1242,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>人生不同年龄段的取舍</title>
-    <link href="http://blog.seirhsiao.com/2015/01/31/%E4%BA%BA%E7%94%9F%E4%B8%8D%E5%90%8C%E5%B9%B4%E9%BE%84%E6%AE%B5%E7%9A%84%E5%8F%96%E8%88%8D/"/>
-    <id>http://blog.seirhsiao.com/2015/01/31/人生不同年龄段的取舍/</id>
+    <link href="http://blog.hsiao.xyz/2015/01/31/%E4%BA%BA%E7%94%9F%E4%B8%8D%E5%90%8C%E5%B9%B4%E9%BE%84%E6%AE%B5%E7%9A%84%E5%8F%96%E8%88%8D/"/>
+    <id>http://blog.hsiao.xyz/2015/01/31/人生不同年龄段的取舍/</id>
     <published>2015-01-30T16:00:00.000Z</published>
     <updated>2016-02-11T10:43:56.000Z</updated>
     
@@ -1299,23 +1299,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>取舍之道</title>
-    <link href="http://blog.seirhsiao.com/2015/01/30/%E5%8F%96%E8%88%8D%E4%B9%8B%E9%81%93/"/>
-    <id>http://blog.seirhsiao.com/2015/01/30/取舍之道/</id>
+    <link href="http://blog.hsiao.xyz/2015/01/30/%E5%8F%96%E8%88%8D%E4%B9%8B%E9%81%93/"/>
+    <id>http://blog.hsiao.xyz/2015/01/30/取舍之道/</id>
     <published>2015-01-29T16:00:00.000Z</published>
     <updated>2016-02-13T12:39:04.000Z</updated>
     
@@ -1353,23 +1353,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>一生一世一双人，半醉半醒半浮生</title>
-    <link href="http://blog.seirhsiao.com/2015/01/24/%E4%B8%80%E7%94%9F%E4%B8%80%E4%B8%96%E4%B8%80%E5%8F%8C%E4%BA%BA-%E5%8D%8A%E9%86%89%E5%8D%8A%E9%86%92%E5%8D%8A%E6%B5%AE%E7%94%9F/"/>
-    <id>http://blog.seirhsiao.com/2015/01/24/一生一世一双人-半醉半醒半浮生/</id>
+    <link href="http://blog.hsiao.xyz/2015/01/24/%E4%B8%80%E7%94%9F%E4%B8%80%E4%B8%96%E4%B8%80%E5%8F%8C%E4%BA%BA-%E5%8D%8A%E9%86%89%E5%8D%8A%E9%86%92%E5%8D%8A%E6%B5%AE%E7%94%9F/"/>
+    <id>http://blog.hsiao.xyz/2015/01/24/一生一世一双人-半醉半醒半浮生/</id>
     <published>2015-01-23T16:00:00.000Z</published>
     <updated>2016-02-04T12:49:26.000Z</updated>
     
@@ -1436,23 +1436,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="励志" scheme="http://blog.seirhsiao.com/tags/%E5%8A%B1%E5%BF%97/"/>
+      <category term="励志" scheme="http://blog.hsiao.xyz/tags/%E5%8A%B1%E5%BF%97/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
   </entry>
   
   <entry>
     <title>学会人随心变，心随路转</title>
-    <link href="http://blog.seirhsiao.com/2015/01/19/%E5%AD%A6%E4%BC%9A%E4%BA%BA%E9%9A%8F%E5%BF%83%E5%8F%98-%E5%BF%83%E9%9A%8F%E8%B7%AF%E8%BD%AC/"/>
-    <id>http://blog.seirhsiao.com/2015/01/19/学会人随心变-心随路转/</id>
+    <link href="http://blog.hsiao.xyz/2015/01/19/%E5%AD%A6%E4%BC%9A%E4%BA%BA%E9%9A%8F%E5%BF%83%E5%8F%98-%E5%BF%83%E9%9A%8F%E8%B7%AF%E8%BD%AC/"/>
+    <id>http://blog.hsiao.xyz/2015/01/19/学会人随心变-心随路转/</id>
     <published>2015-01-18T16:00:00.000Z</published>
     <updated>2016-02-01T12:41:30.000Z</updated>
     
@@ -1481,23 +1481,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>文字充实着我的人生</title>
-    <link href="http://blog.seirhsiao.com/2015/01/09/%E6%96%87%E5%AD%97%E5%85%85%E5%AE%9E%E7%9D%80%E6%88%91%E7%9A%84%E4%BA%BA%E7%94%9F/"/>
-    <id>http://blog.seirhsiao.com/2015/01/09/文字充实着我的人生/</id>
+    <link href="http://blog.hsiao.xyz/2015/01/09/%E6%96%87%E5%AD%97%E5%85%85%E5%AE%9E%E7%9D%80%E6%88%91%E7%9A%84%E4%BA%BA%E7%94%9F/"/>
+    <id>http://blog.hsiao.xyz/2015/01/09/文字充实着我的人生/</id>
     <published>2015-01-08T16:00:00.000Z</published>
     <updated>2016-02-04T13:33:06.000Z</updated>
     
@@ -1526,23 +1526,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>明月依旧照晴窗</title>
-    <link href="http://blog.seirhsiao.com/2015/01/08/%E6%98%8E%E6%9C%88%E4%BE%9D%E6%97%A7%E7%85%A7%E6%99%B4%E7%AA%97/"/>
-    <id>http://blog.seirhsiao.com/2015/01/08/明月依旧照晴窗/</id>
+    <link href="http://blog.hsiao.xyz/2015/01/08/%E6%98%8E%E6%9C%88%E4%BE%9D%E6%97%A7%E7%85%A7%E6%99%B4%E7%AA%97/"/>
+    <id>http://blog.hsiao.xyz/2015/01/08/明月依旧照晴窗/</id>
     <published>2015-01-07T16:00:00.000Z</published>
     <updated>2016-02-13T12:51:34.000Z</updated>
     
@@ -1588,23 +1588,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>择一城终老，遇一人白首</title>
-    <link href="http://blog.seirhsiao.com/2014/12/31/%E6%8B%A9%E4%B8%80%E5%9F%8E%E7%BB%88%E8%80%81-%E9%81%87%E4%B8%80%E4%BA%BA%E7%99%BD%E9%A6%96/"/>
-    <id>http://blog.seirhsiao.com/2014/12/31/择一城终老-遇一人白首/</id>
+    <link href="http://blog.hsiao.xyz/2014/12/31/%E6%8B%A9%E4%B8%80%E5%9F%8E%E7%BB%88%E8%80%81-%E9%81%87%E4%B8%80%E4%BA%BA%E7%99%BD%E9%A6%96/"/>
+    <id>http://blog.hsiao.xyz/2014/12/31/择一城终老-遇一人白首/</id>
     <published>2014-12-30T16:00:00.000Z</published>
     <updated>2016-02-12T00:35:36.000Z</updated>
     
@@ -1648,23 +1648,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>目中有人，心中有度</title>
-    <link href="http://blog.seirhsiao.com/2014/12/21/%E7%9B%AE%E4%B8%AD%E6%9C%89%E4%BA%BA-%E5%BF%83%E4%B8%AD%E6%9C%89%E5%BA%A6/"/>
-    <id>http://blog.seirhsiao.com/2014/12/21/目中有人-心中有度/</id>
+    <link href="http://blog.hsiao.xyz/2014/12/21/%E7%9B%AE%E4%B8%AD%E6%9C%89%E4%BA%BA-%E5%BF%83%E4%B8%AD%E6%9C%89%E5%BA%A6/"/>
+    <id>http://blog.hsiao.xyz/2014/12/21/目中有人-心中有度/</id>
     <published>2014-12-20T16:00:00.000Z</published>
     <updated>2016-01-31T10:46:08.000Z</updated>
     
@@ -1709,21 +1709,21 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
   </entry>
   
   <entry>
     <title>水不洗水，尘不染尘</title>
-    <link href="http://blog.seirhsiao.com/2014/12/18/%E6%B0%B4%E4%B8%8D%E6%B4%97%E6%B0%B4-%E5%B0%98%E4%B8%8D%E6%9F%93%E5%B0%98/"/>
-    <id>http://blog.seirhsiao.com/2014/12/18/水不洗水-尘不染尘/</id>
+    <link href="http://blog.hsiao.xyz/2014/12/18/%E6%B0%B4%E4%B8%8D%E6%B4%97%E6%B0%B4-%E5%B0%98%E4%B8%8D%E6%9F%93%E5%B0%98/"/>
+    <id>http://blog.hsiao.xyz/2014/12/18/水不洗水-尘不染尘/</id>
     <published>2014-12-17T16:00:00.000Z</published>
     <updated>2016-01-31T09:19:36.000Z</updated>
     
@@ -1772,23 +1772,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>冬晨闲思</title>
-    <link href="http://blog.seirhsiao.com/2014/12/07/%E5%86%AC%E6%99%A8%E9%97%B2%E6%80%9D/"/>
-    <id>http://blog.seirhsiao.com/2014/12/07/冬晨闲思/</id>
+    <link href="http://blog.hsiao.xyz/2014/12/07/%E5%86%AC%E6%99%A8%E9%97%B2%E6%80%9D/"/>
+    <id>http://blog.hsiao.xyz/2014/12/07/冬晨闲思/</id>
     <published>2014-12-06T16:00:00.000Z</published>
     <updated>2016-02-13T13:05:34.000Z</updated>
     
@@ -1818,23 +1818,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>人生三境界</title>
-    <link href="http://blog.seirhsiao.com/2014/11/27/%E4%BA%BA%E7%94%9F%E4%B8%89%E5%A2%83%E7%95%8C/"/>
-    <id>http://blog.seirhsiao.com/2014/11/27/人生三境界/</id>
+    <link href="http://blog.hsiao.xyz/2014/11/27/%E4%BA%BA%E7%94%9F%E4%B8%89%E5%A2%83%E7%95%8C/"/>
+    <id>http://blog.hsiao.xyz/2014/11/27/人生三境界/</id>
     <published>2014-11-26T16:00:00.000Z</published>
     <updated>2016-02-12T00:37:28.000Z</updated>
     
@@ -1875,23 +1875,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>风雨人生，淡然相随</title>
-    <link href="http://blog.seirhsiao.com/2014/11/26/%E9%A3%8E%E9%9B%A8%E4%BA%BA%E7%94%9F-%E6%B7%A1%E7%84%B6%E7%9B%B8%E9%9A%8F/"/>
-    <id>http://blog.seirhsiao.com/2014/11/26/风雨人生-淡然相随/</id>
+    <link href="http://blog.hsiao.xyz/2014/11/26/%E9%A3%8E%E9%9B%A8%E4%BA%BA%E7%94%9F-%E6%B7%A1%E7%84%B6%E7%9B%B8%E9%9A%8F/"/>
+    <id>http://blog.hsiao.xyz/2014/11/26/风雨人生-淡然相随/</id>
     <published>2014-11-25T16:00:00.000Z</published>
     <updated>2016-02-11T10:42:52.000Z</updated>
     
@@ -1923,23 +1923,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>人生需宽容</title>
-    <link href="http://blog.seirhsiao.com/2014/11/18/%E4%BA%BA%E7%94%9F%E9%9C%80%E5%AE%BD%E5%AE%B9/"/>
-    <id>http://blog.seirhsiao.com/2014/11/18/人生需宽容/</id>
+    <link href="http://blog.hsiao.xyz/2014/11/18/%E4%BA%BA%E7%94%9F%E9%9C%80%E5%AE%BD%E5%AE%B9/"/>
+    <id>http://blog.hsiao.xyz/2014/11/18/人生需宽容/</id>
     <published>2014-11-17T16:00:00.000Z</published>
     <updated>2016-02-03T12:39:38.000Z</updated>
     
@@ -1967,23 +1967,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>不见此文，终身遗憾！</title>
-    <link href="http://blog.seirhsiao.com/2014/11/12/%E4%B8%8D%E8%A7%81%E6%AD%A4%E6%96%87-%E9%81%97%E6%86%BE%E7%BB%88%E7%94%9F/"/>
-    <id>http://blog.seirhsiao.com/2014/11/12/不见此文-遗憾终生/</id>
+    <link href="http://blog.hsiao.xyz/2014/11/12/%E4%B8%8D%E8%A7%81%E6%AD%A4%E6%96%87-%E9%81%97%E6%86%BE%E7%BB%88%E7%94%9F/"/>
+    <id>http://blog.hsiao.xyz/2014/11/12/不见此文-遗憾终生/</id>
     <published>2014-11-11T16:00:00.000Z</published>
     <updated>2016-02-01T12:29:46.000Z</updated>
     
@@ -2064,23 +2064,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>人生天地间，忽如远行客</title>
-    <link href="http://blog.seirhsiao.com/2014/11/08/%E4%BA%BA%E7%94%9F%E5%A4%A9%E5%9C%B0%E9%97%B4-%E5%BF%BD%E5%A6%82%E8%BF%9C%E8%A1%8C%E5%AE%A2/"/>
-    <id>http://blog.seirhsiao.com/2014/11/08/人生天地间-忽如远行客/</id>
+    <link href="http://blog.hsiao.xyz/2014/11/08/%E4%BA%BA%E7%94%9F%E5%A4%A9%E5%9C%B0%E9%97%B4-%E5%BF%BD%E5%A6%82%E8%BF%9C%E8%A1%8C%E5%AE%A2/"/>
+    <id>http://blog.hsiao.xyz/2014/11/08/人生天地间-忽如远行客/</id>
     <published>2014-11-07T16:00:00.000Z</published>
     <updated>2016-02-01T12:09:16.000Z</updated>
     
@@ -2125,23 +2125,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>消费的分类</title>
-    <link href="http://blog.seirhsiao.com/2014/10/18/%E6%B6%88%E8%B4%B9%E7%9A%84%E5%88%86%E7%B1%BB/"/>
-    <id>http://blog.seirhsiao.com/2014/10/18/消费的分类/</id>
+    <link href="http://blog.hsiao.xyz/2014/10/18/%E6%B6%88%E8%B4%B9%E7%9A%84%E5%88%86%E7%B1%BB/"/>
+    <id>http://blog.hsiao.xyz/2014/10/18/消费的分类/</id>
     <published>2014-10-17T16:00:00.000Z</published>
     <updated>2016-02-02T13:22:06.000Z</updated>
     
@@ -2172,21 +2172,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
-      <category term="消费" scheme="http://blog.seirhsiao.com/tags/%E6%B6%88%E8%B4%B9/"/>
+      <category term="消费" scheme="http://blog.hsiao.xyz/tags/%E6%B6%88%E8%B4%B9/"/>
     
   </entry>
   
   <entry>
     <title>记账表和家庭消费分配图</title>
-    <link href="http://blog.seirhsiao.com/2014/10/15/%E8%AE%B0%E8%B4%A6%E8%A1%A8%E5%92%8C%E5%AE%B6%E5%BA%AD%E6%B6%88%E8%B4%B9%E5%88%86%E9%85%8D%E5%9B%BE/"/>
-    <id>http://blog.seirhsiao.com/2014/10/15/记账表和家庭消费分配图/</id>
+    <link href="http://blog.hsiao.xyz/2014/10/15/%E8%AE%B0%E8%B4%A6%E8%A1%A8%E5%92%8C%E5%AE%B6%E5%BA%AD%E6%B6%88%E8%B4%B9%E5%88%86%E9%85%8D%E5%9B%BE/"/>
+    <id>http://blog.hsiao.xyz/2014/10/15/记账表和家庭消费分配图/</id>
     <published>2014-10-14T16:00:00.000Z</published>
     <updated>2016-02-02T13:10:32.000Z</updated>
     
@@ -2210,21 +2210,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
-      <category term="记账" scheme="http://blog.seirhsiao.com/tags/%E8%AE%B0%E8%B4%A6/"/>
+      <category term="记账" scheme="http://blog.hsiao.xyz/tags/%E8%AE%B0%E8%B4%A6/"/>
     
   </entry>
   
   <entry>
     <title>几种轻松记帐的APP工具介绍</title>
-    <link href="http://blog.seirhsiao.com/2014/10/07/%E5%87%A0%E7%A7%8D%E8%BD%BB%E6%9D%BE%E8%AE%B0%E5%B8%90%E7%9A%84APP%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/"/>
-    <id>http://blog.seirhsiao.com/2014/10/07/几种轻松记帐的APP工具介绍/</id>
+    <link href="http://blog.hsiao.xyz/2014/10/07/%E5%87%A0%E7%A7%8D%E8%BD%BB%E6%9D%BE%E8%AE%B0%E5%B8%90%E7%9A%84APP%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://blog.hsiao.xyz/2014/10/07/几种轻松记帐的APP工具介绍/</id>
     <published>2014-10-06T16:00:00.000Z</published>
     <updated>2016-02-02T13:18:22.000Z</updated>
     
@@ -2245,21 +2245,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
-      <category term="记账" scheme="http://blog.seirhsiao.com/tags/%E8%AE%B0%E8%B4%A6/"/>
+      <category term="记账" scheme="http://blog.hsiao.xyz/tags/%E8%AE%B0%E8%B4%A6/"/>
     
   </entry>
   
   <entry>
     <title>记帐工具的介绍</title>
-    <link href="http://blog.seirhsiao.com/2014/10/05/%E8%AE%B0%E5%B8%90%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
-    <id>http://blog.seirhsiao.com/2014/10/05/记帐工具的介绍/</id>
+    <link href="http://blog.hsiao.xyz/2014/10/05/%E8%AE%B0%E5%B8%90%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://blog.hsiao.xyz/2014/10/05/记帐工具的介绍/</id>
     <published>2014-10-04T16:00:00.000Z</published>
     <updated>2016-02-02T13:02:38.000Z</updated>
     
@@ -2279,21 +2279,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
-      <category term="记账" scheme="http://blog.seirhsiao.com/tags/%E8%AE%B0%E8%B4%A6/"/>
+      <category term="记账" scheme="http://blog.hsiao.xyz/tags/%E8%AE%B0%E8%B4%A6/"/>
     
   </entry>
   
   <entry>
     <title>如何记帐以及记帐的方法</title>
-    <link href="http://blog.seirhsiao.com/2014/10/03/%E5%A6%82%E4%BD%95%E8%AE%B0%E5%B8%90%E4%BB%A5%E5%8F%8A%E8%AE%B0%E5%B8%90%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>http://blog.seirhsiao.com/2014/10/03/如何记帐以及记帐的方法/</id>
+    <link href="http://blog.hsiao.xyz/2014/10/03/%E5%A6%82%E4%BD%95%E8%AE%B0%E5%B8%90%E4%BB%A5%E5%8F%8A%E8%AE%B0%E5%B8%90%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>http://blog.hsiao.xyz/2014/10/03/如何记帐以及记帐的方法/</id>
     <published>2014-10-02T16:00:00.000Z</published>
     <updated>2016-02-02T12:45:14.000Z</updated>
     
@@ -2329,21 +2329,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
-      <category term="记账" scheme="http://blog.seirhsiao.com/tags/%E8%AE%B0%E8%B4%A6/"/>
+      <category term="记账" scheme="http://blog.hsiao.xyz/tags/%E8%AE%B0%E8%B4%A6/"/>
     
   </entry>
   
   <entry>
     <title>家庭记帐的重要性及好处</title>
-    <link href="http://blog.seirhsiao.com/2014/09/30/%E5%AE%B6%E5%BA%AD%E8%AE%B0%E5%B8%90%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7%E5%8F%8A%E5%A5%BD%E5%A4%84/"/>
-    <id>http://blog.seirhsiao.com/2014/09/30/家庭记帐的重要性及好处/</id>
+    <link href="http://blog.hsiao.xyz/2014/09/30/%E5%AE%B6%E5%BA%AD%E8%AE%B0%E5%B8%90%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7%E5%8F%8A%E5%A5%BD%E5%A4%84/"/>
+    <id>http://blog.hsiao.xyz/2014/09/30/家庭记帐的重要性及好处/</id>
     <published>2014-09-29T16:00:00.000Z</published>
     <updated>2016-02-02T12:33:38.000Z</updated>
     
@@ -2364,21 +2364,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
-      <category term="记账" scheme="http://blog.seirhsiao.com/tags/%E8%AE%B0%E8%B4%A6/"/>
+      <category term="记账" scheme="http://blog.hsiao.xyz/tags/%E8%AE%B0%E8%B4%A6/"/>
     
   </entry>
   
   <entry>
     <title>理财的重要性</title>
-    <link href="http://blog.seirhsiao.com/2014/09/27/%E7%90%86%E8%B4%A2%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7/"/>
-    <id>http://blog.seirhsiao.com/2014/09/27/理财的重要性/</id>
+    <link href="http://blog.hsiao.xyz/2014/09/27/%E7%90%86%E8%B4%A2%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7/"/>
+    <id>http://blog.hsiao.xyz/2014/09/27/理财的重要性/</id>
     <published>2014-09-26T16:00:00.000Z</published>
     <updated>2016-02-02T12:32:14.000Z</updated>
     
@@ -2397,21 +2397,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="财富" scheme="http://blog.seirhsiao.com/tags/%E8%B4%A2%E5%AF%8C/"/>
+      <category term="财富" scheme="http://blog.hsiao.xyz/tags/%E8%B4%A2%E5%AF%8C/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
   <entry>
     <title>理财的误区</title>
-    <link href="http://blog.seirhsiao.com/2014/09/24/%E7%90%86%E8%B4%A2%E7%9A%84%E8%AF%AF%E5%8C%BA/"/>
-    <id>http://blog.seirhsiao.com/2014/09/24/理财的误区/</id>
+    <link href="http://blog.hsiao.xyz/2014/09/24/%E7%90%86%E8%B4%A2%E7%9A%84%E8%AF%AF%E5%8C%BA/"/>
+    <id>http://blog.hsiao.xyz/2014/09/24/理财的误区/</id>
     <published>2014-09-23T16:00:00.000Z</published>
     <updated>2016-02-02T12:29:26.000Z</updated>
     
@@ -2442,21 +2442,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="财富" scheme="http://blog.seirhsiao.com/tags/%E8%B4%A2%E5%AF%8C/"/>
+      <category term="财富" scheme="http://blog.hsiao.xyz/tags/%E8%B4%A2%E5%AF%8C/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
   <entry>
     <title>理财的原则</title>
-    <link href="http://blog.seirhsiao.com/2014/09/23/%E7%90%86%E8%B4%A2%E7%9A%84%E5%8E%9F%E5%88%99/"/>
-    <id>http://blog.seirhsiao.com/2014/09/23/理财的原则/</id>
+    <link href="http://blog.hsiao.xyz/2014/09/23/%E7%90%86%E8%B4%A2%E7%9A%84%E5%8E%9F%E5%88%99/"/>
+    <id>http://blog.hsiao.xyz/2014/09/23/理财的原则/</id>
     <published>2014-09-22T16:00:00.000Z</published>
     <updated>2016-02-02T12:25:26.000Z</updated>
     
@@ -2485,21 +2485,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="财富" scheme="http://blog.seirhsiao.com/tags/%E8%B4%A2%E5%AF%8C/"/>
+      <category term="财富" scheme="http://blog.hsiao.xyz/tags/%E8%B4%A2%E5%AF%8C/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
   <entry>
     <title>理财包含哪几个方面</title>
-    <link href="http://blog.seirhsiao.com/2014/09/20/%E7%90%86%E8%B4%A2%E5%8C%85%E5%90%AB%E5%93%AA%E5%87%A0%E4%B8%AA%E6%96%B9%E9%9D%A2/"/>
-    <id>http://blog.seirhsiao.com/2014/09/20/理财包含哪几个方面/</id>
+    <link href="http://blog.hsiao.xyz/2014/09/20/%E7%90%86%E8%B4%A2%E5%8C%85%E5%90%AB%E5%93%AA%E5%87%A0%E4%B8%AA%E6%96%B9%E9%9D%A2/"/>
+    <id>http://blog.hsiao.xyz/2014/09/20/理财包含哪几个方面/</id>
     <published>2014-09-19T16:00:00.000Z</published>
     <updated>2016-02-02T12:25:16.000Z</updated>
     
@@ -2549,21 +2549,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="财富" scheme="http://blog.seirhsiao.com/tags/%E8%B4%A2%E5%AF%8C/"/>
+      <category term="财富" scheme="http://blog.hsiao.xyz/tags/%E8%B4%A2%E5%AF%8C/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
   <entry>
     <title>理财的含义</title>
-    <link href="http://blog.seirhsiao.com/2014/09/19/%E7%90%86%E8%B4%A2%E7%9A%84%E5%90%AB%E4%B9%89/"/>
-    <id>http://blog.seirhsiao.com/2014/09/19/理财的含义/</id>
+    <link href="http://blog.hsiao.xyz/2014/09/19/%E7%90%86%E8%B4%A2%E7%9A%84%E5%90%AB%E4%B9%89/"/>
+    <id>http://blog.hsiao.xyz/2014/09/19/理财的含义/</id>
     <published>2014-09-18T16:00:00.000Z</published>
     <updated>2016-02-02T12:25:06.000Z</updated>
     
@@ -2589,21 +2589,21 @@
     
     </summary>
     
-      <category term="理财入门" scheme="http://blog.seirhsiao.com/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
+      <category term="理财入门" scheme="http://blog.hsiao.xyz/categories/%E7%90%86%E8%B4%A2%E5%85%A5%E9%97%A8/"/>
     
     
-      <category term="理财" scheme="http://blog.seirhsiao.com/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="http://blog.hsiao.xyz/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="财富" scheme="http://blog.seirhsiao.com/tags/%E8%B4%A2%E5%AF%8C/"/>
+      <category term="财富" scheme="http://blog.hsiao.xyz/tags/%E8%B4%A2%E5%AF%8C/"/>
     
-      <category term="入门" scheme="http://blog.seirhsiao.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="http://blog.hsiao.xyz/tags/%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
   <entry>
     <title>此岸与彼岸</title>
-    <link href="http://blog.seirhsiao.com/2014/07/05/%E6%AD%A4%E5%B2%B8%E4%B8%8E%E5%BD%BC%E5%B2%B8/"/>
-    <id>http://blog.seirhsiao.com/2014/07/05/此岸与彼岸/</id>
+    <link href="http://blog.hsiao.xyz/2014/07/05/%E6%AD%A4%E5%B2%B8%E4%B8%8E%E5%BD%BC%E5%B2%B8/"/>
+    <id>http://blog.hsiao.xyz/2014/07/05/此岸与彼岸/</id>
     <published>2014-07-04T16:00:00.000Z</published>
     <updated>2016-02-13T13:04:22.000Z</updated>
     
@@ -2630,23 +2630,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>日落的脚印不孤单</title>
-    <link href="http://blog.seirhsiao.com/2014/07/01/%E6%97%A5%E8%90%BD%E7%9A%84%E8%84%9A%E5%8D%B0%E4%B8%8D%E5%AD%A4%E5%8D%95/"/>
-    <id>http://blog.seirhsiao.com/2014/07/01/日落的脚印不孤单/</id>
+    <link href="http://blog.hsiao.xyz/2014/07/01/%E6%97%A5%E8%90%BD%E7%9A%84%E8%84%9A%E5%8D%B0%E4%B8%8D%E5%AD%A4%E5%8D%95/"/>
+    <id>http://blog.hsiao.xyz/2014/07/01/日落的脚印不孤单/</id>
     <published>2014-06-30T16:00:00.000Z</published>
     <updated>2016-02-13T13:03:34.000Z</updated>
     
@@ -2690,23 +2690,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>往昔不再，梦想依旧</title>
-    <link href="http://blog.seirhsiao.com/2014/06/04/%E5%BE%80%E6%98%94%E4%B8%8D%E5%86%8D-%E6%A2%A6%E6%83%B3%E4%BE%9D%E6%97%A7/"/>
-    <id>http://blog.seirhsiao.com/2014/06/04/往昔不再-梦想依旧/</id>
+    <link href="http://blog.hsiao.xyz/2014/06/04/%E5%BE%80%E6%98%94%E4%B8%8D%E5%86%8D-%E6%A2%A6%E6%83%B3%E4%BE%9D%E6%97%A7/"/>
+    <id>http://blog.hsiao.xyz/2014/06/04/往昔不再-梦想依旧/</id>
     <published>2014-06-03T16:00:00.000Z</published>
     <updated>2016-02-12T00:38:26.000Z</updated>
     
@@ -2739,19 +2739,19 @@
     
     </summary>
     
-      <category term="心情散文" scheme="http://blog.seirhsiao.com/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
+      <category term="心情散文" scheme="http://blog.hsiao.xyz/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
     
     
-      <category term="毕业" scheme="http://blog.seirhsiao.com/tags/%E6%AF%95%E4%B8%9A/"/>
+      <category term="毕业" scheme="http://blog.hsiao.xyz/tags/%E6%AF%95%E4%B8%9A/"/>
     
-      <category term="离别" scheme="http://blog.seirhsiao.com/tags/%E7%A6%BB%E5%88%AB/"/>
+      <category term="离别" scheme="http://blog.hsiao.xyz/tags/%E7%A6%BB%E5%88%AB/"/>
     
   </entry>
   
   <entry>
     <title>有一种美丽叫-淡到极致</title>
-    <link href="http://blog.seirhsiao.com/2014/05/15/%E6%9C%89%E4%B8%80%E7%A7%8D%E7%BE%8E%E4%B8%BD%E5%8F%AB-%E6%B7%A1%E5%88%B0%E6%9E%81%E8%87%B4/"/>
-    <id>http://blog.seirhsiao.com/2014/05/15/有一种美丽叫-淡到极致/</id>
+    <link href="http://blog.hsiao.xyz/2014/05/15/%E6%9C%89%E4%B8%80%E7%A7%8D%E7%BE%8E%E4%B8%BD%E5%8F%AB-%E6%B7%A1%E5%88%B0%E6%9E%81%E8%87%B4/"/>
+    <id>http://blog.hsiao.xyz/2014/05/15/有一种美丽叫-淡到极致/</id>
     <published>2014-05-14T16:00:00.000Z</published>
     <updated>2016-01-31T09:38:22.000Z</updated>
     
@@ -2784,23 +2784,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>独醉相邀，一酒金樽还酹江月</title>
-    <link href="http://blog.seirhsiao.com/2014/05/08/%E7%8B%AC%E9%86%89%E7%9B%B8%E9%82%80-%E4%B8%80%E9%85%92%E9%87%91%E6%A8%BD%E8%BF%98%E9%85%B9%E6%B1%9F%E6%9C%88/"/>
-    <id>http://blog.seirhsiao.com/2014/05/08/独醉相邀-一酒金樽还酹江月/</id>
+    <link href="http://blog.hsiao.xyz/2014/05/08/%E7%8B%AC%E9%86%89%E7%9B%B8%E9%82%80-%E4%B8%80%E9%85%92%E9%87%91%E6%A8%BD%E8%BF%98%E9%85%B9%E6%B1%9F%E6%9C%88/"/>
+    <id>http://blog.hsiao.xyz/2014/05/08/独醉相邀-一酒金樽还酹江月/</id>
     <published>2014-05-07T16:00:00.000Z</published>
     <updated>2016-02-12T03:18:00.000Z</updated>
     
@@ -2829,19 +2829,19 @@
     
     </summary>
     
-      <category term="心情散文" scheme="http://blog.seirhsiao.com/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
+      <category term="心情散文" scheme="http://blog.hsiao.xyz/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="大学" scheme="http://blog.seirhsiao.com/tags/%E5%A4%A7%E5%AD%A6/"/>
+      <category term="大学" scheme="http://blog.hsiao.xyz/tags/%E5%A4%A7%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>踏遍风口浪尖</title>
-    <link href="http://blog.seirhsiao.com/2014/02/21/%E8%B8%8F%E9%A3%8E%E5%8F%A3%E6%B5%AA%E5%B0%96/"/>
-    <id>http://blog.seirhsiao.com/2014/02/21/踏风口浪尖/</id>
+    <link href="http://blog.hsiao.xyz/2014/02/21/%E8%B8%8F%E9%A3%8E%E5%8F%A3%E6%B5%AA%E5%B0%96/"/>
+    <id>http://blog.hsiao.xyz/2014/02/21/踏风口浪尖/</id>
     <published>2014-02-20T16:00:00.000Z</published>
     <updated>2019-11-23T10:58:44.894Z</updated>
     
@@ -2873,19 +2873,19 @@
     
     </summary>
     
-      <category term="心情散文" scheme="http://blog.seirhsiao.com/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
+      <category term="心情散文" scheme="http://blog.hsiao.xyz/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
     
     
-      <category term="大学" scheme="http://blog.seirhsiao.com/tags/%E5%A4%A7%E5%AD%A6/"/>
+      <category term="大学" scheme="http://blog.hsiao.xyz/tags/%E5%A4%A7%E5%AD%A6/"/>
     
-      <category term="立志" scheme="http://blog.seirhsiao.com/tags/%E7%AB%8B%E5%BF%97/"/>
+      <category term="立志" scheme="http://blog.hsiao.xyz/tags/%E7%AB%8B%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>瞬间就是一年，转眼就是一生！</title>
-    <link href="http://blog.seirhsiao.com/2014/01/18/%E7%9E%AC%E9%97%B4%E5%B0%B1%E6%98%AF%E4%B8%80%E5%B9%B4-%E8%BD%AC%E7%9C%BC%E5%B0%B1%E6%98%AF%E4%B8%80%E7%94%9F/"/>
-    <id>http://blog.seirhsiao.com/2014/01/18/瞬间就是一年-转眼就是一生/</id>
+    <link href="http://blog.hsiao.xyz/2014/01/18/%E7%9E%AC%E9%97%B4%E5%B0%B1%E6%98%AF%E4%B8%80%E5%B9%B4-%E8%BD%AC%E7%9C%BC%E5%B0%B1%E6%98%AF%E4%B8%80%E7%94%9F/"/>
+    <id>http://blog.hsiao.xyz/2014/01/18/瞬间就是一年-转眼就是一生/</id>
     <published>2014-01-17T16:00:00.000Z</published>
     <updated>2016-01-31T07:54:38.000Z</updated>
     
@@ -2922,23 +2922,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="励志" scheme="http://blog.seirhsiao.com/tags/%E5%8A%B1%E5%BF%97/"/>
+      <category term="励志" scheme="http://blog.hsiao.xyz/tags/%E5%8A%B1%E5%BF%97/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
   </entry>
   
   <entry>
     <title>带上最美的笑容，且行且珍惜</title>
-    <link href="http://blog.seirhsiao.com/2014/01/02/%E5%B8%A6%E4%B8%8A%E6%9C%80%E7%BE%8E%E7%AC%91%E5%AE%B9%E4%B8%94%E8%A1%8C/"/>
-    <id>http://blog.seirhsiao.com/2014/01/02/带上最美笑容且行/</id>
+    <link href="http://blog.hsiao.xyz/2014/01/02/%E5%B8%A6%E4%B8%8A%E6%9C%80%E7%BE%8E%E7%AC%91%E5%AE%B9%E4%B8%94%E8%A1%8C/"/>
+    <id>http://blog.hsiao.xyz/2014/01/02/带上最美笑容且行/</id>
     <published>2014-01-01T16:00:00.000Z</published>
     <updated>2016-01-31T11:05:16.000Z</updated>
     
@@ -2982,23 +2982,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
-      <category term="情感" scheme="http://blog.seirhsiao.com/tags/%E6%83%85%E6%84%9F/"/>
+      <category term="情感" scheme="http://blog.hsiao.xyz/tags/%E6%83%85%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>人生在世几何哉，何不潇洒度流年</title>
-    <link href="http://blog.seirhsiao.com/2013/12/18/%E4%BA%BA%E7%94%9F%E5%9C%A8%E4%B8%96%E5%87%A0%E4%BD%95%E5%93%89-%E4%BD%95%E4%B8%8D%E6%BD%87%E6%B4%92%E5%BA%A6%E6%B5%81%E5%B9%B4/"/>
-    <id>http://blog.seirhsiao.com/2013/12/18/人生在世几何哉-何不潇洒度流年/</id>
+    <link href="http://blog.hsiao.xyz/2013/12/18/%E4%BA%BA%E7%94%9F%E5%9C%A8%E4%B8%96%E5%87%A0%E4%BD%95%E5%93%89-%E4%BD%95%E4%B8%8D%E6%BD%87%E6%B4%92%E5%BA%A6%E6%B5%81%E5%B9%B4/"/>
+    <id>http://blog.hsiao.xyz/2013/12/18/人生在世几何哉-何不潇洒度流年/</id>
     <published>2013-12-17T16:00:00.000Z</published>
     <updated>2016-02-12T03:17:48.000Z</updated>
     
@@ -3023,19 +3023,19 @@
     
     </summary>
     
-      <category term="心情散文" scheme="http://blog.seirhsiao.com/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
+      <category term="心情散文" scheme="http://blog.hsiao.xyz/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
     
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="大学" scheme="http://blog.seirhsiao.com/tags/%E5%A4%A7%E5%AD%A6/"/>
+      <category term="大学" scheme="http://blog.hsiao.xyz/tags/%E5%A4%A7%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>默守时光，静待流年</title>
-    <link href="http://blog.seirhsiao.com/2013/09/08/%E9%BB%98%E5%AE%88%E6%97%B6%E5%85%89-%E9%9D%99%E5%BE%85%E6%B5%81%E5%B9%B4/"/>
-    <id>http://blog.seirhsiao.com/2013/09/08/默守时光-静待流年/</id>
+    <link href="http://blog.hsiao.xyz/2013/09/08/%E9%BB%98%E5%AE%88%E6%97%B6%E5%85%89-%E9%9D%99%E5%BE%85%E6%B5%81%E5%B9%B4/"/>
+    <id>http://blog.hsiao.xyz/2013/09/08/默守时光-静待流年/</id>
     <published>2013-09-07T16:00:00.000Z</published>
     <updated>2019-11-23T10:59:38.536Z</updated>
     
@@ -3078,19 +3078,19 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="时光" scheme="http://blog.seirhsiao.com/tags/%E6%97%B6%E5%85%89/"/>
+      <category term="时光" scheme="http://blog.hsiao.xyz/tags/%E6%97%B6%E5%85%89/"/>
     
   </entry>
   
   <entry>
     <title>山水情</title>
-    <link href="http://blog.seirhsiao.com/2013/08/08/%E5%B1%B1%E6%B0%B4%E6%83%85/"/>
-    <id>http://blog.seirhsiao.com/2013/08/08/山水情/</id>
+    <link href="http://blog.hsiao.xyz/2013/08/08/%E5%B1%B1%E6%B0%B4%E6%83%85/"/>
+    <id>http://blog.hsiao.xyz/2013/08/08/山水情/</id>
     <published>2013-08-07T16:00:00.000Z</published>
     <updated>2019-11-23T04:20:23.636Z</updated>
     
@@ -3119,19 +3119,19 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="山水" scheme="http://blog.seirhsiao.com/tags/%E5%B1%B1%E6%B0%B4/"/>
+      <category term="山水" scheme="http://blog.hsiao.xyz/tags/%E5%B1%B1%E6%B0%B4/"/>
     
   </entry>
   
   <entry>
     <title>水深不语，人稳不言</title>
-    <link href="http://blog.seirhsiao.com/2013/02/20/%E6%B0%B4%E6%B7%B1%E4%B8%8D%E8%AF%AD-%E4%BA%BA%E7%A8%B3%E4%B8%8D%E8%A8%80/"/>
-    <id>http://blog.seirhsiao.com/2013/02/20/水深不语-人稳不言/</id>
+    <link href="http://blog.hsiao.xyz/2013/02/20/%E6%B0%B4%E6%B7%B1%E4%B8%8D%E8%AF%AD-%E4%BA%BA%E7%A8%B3%E4%B8%8D%E8%A8%80/"/>
+    <id>http://blog.hsiao.xyz/2013/02/20/水深不语-人稳不言/</id>
     <published>2013-02-19T16:00:00.000Z</published>
     <updated>2016-01-31T12:40:06.000Z</updated>
     
@@ -3182,23 +3182,23 @@
     
     </summary>
     
-      <category term="美文欣赏" scheme="http://blog.seirhsiao.com/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
+      <category term="美文欣赏" scheme="http://blog.hsiao.xyz/categories/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F/"/>
     
     
-      <category term="美文" scheme="http://blog.seirhsiao.com/tags/%E7%BE%8E%E6%96%87/"/>
+      <category term="美文" scheme="http://blog.hsiao.xyz/tags/%E7%BE%8E%E6%96%87/"/>
     
-      <category term="励志" scheme="http://blog.seirhsiao.com/tags/%E5%8A%B1%E5%BF%97/"/>
+      <category term="励志" scheme="http://blog.hsiao.xyz/tags/%E5%8A%B1%E5%BF%97/"/>
     
-      <category term="人生" scheme="http://blog.seirhsiao.com/tags/%E4%BA%BA%E7%94%9F/"/>
+      <category term="人生" scheme="http://blog.hsiao.xyz/tags/%E4%BA%BA%E7%94%9F/"/>
     
-      <category term="心语" scheme="http://blog.seirhsiao.com/tags/%E5%BF%83%E8%AF%AD/"/>
+      <category term="心语" scheme="http://blog.hsiao.xyz/tags/%E5%BF%83%E8%AF%AD/"/>
     
   </entry>
   
   <entry>
     <title>深夜感怀</title>
-    <link href="http://blog.seirhsiao.com/2012/10/06/%E6%B7%B1%E5%A4%9C%E6%84%9F%E6%80%80/"/>
-    <id>http://blog.seirhsiao.com/2012/10/06/深夜感怀/</id>
+    <link href="http://blog.hsiao.xyz/2012/10/06/%E6%B7%B1%E5%A4%9C%E6%84%9F%E6%80%80/"/>
+    <id>http://blog.hsiao.xyz/2012/10/06/深夜感怀/</id>
     <published>2012-10-05T16:00:00.000Z</published>
     <updated>2019-11-23T00:58:20.533Z</updated>
     
@@ -3231,12 +3231,12 @@
     
     </summary>
     
-      <category term="心情散文" scheme="http://blog.seirhsiao.com/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
+      <category term="心情散文" scheme="http://blog.hsiao.xyz/categories/%E5%BF%83%E6%83%85%E6%95%A3%E6%96%87/"/>
     
     
-      <category term="感怀" scheme="http://blog.seirhsiao.com/tags/%E6%84%9F%E6%80%80/"/>
+      <category term="感怀" scheme="http://blog.hsiao.xyz/tags/%E6%84%9F%E6%80%80/"/>
     
-      <category term="大学" scheme="http://blog.seirhsiao.com/tags/%E5%A4%A7%E5%AD%A6/"/>
+      <category term="大学" scheme="http://blog.hsiao.xyz/tags/%E5%A4%A7%E5%AD%A6/"/>
     
   </entry>
   

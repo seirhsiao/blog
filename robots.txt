@@ -10,5 +10,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://blog.seirhsiao.com/sitemap.xml
-Sitemap: http://blog.seirhsiao.com/baidusitemap.xml
+Sitemap: http://blog.hsiao.xyz/sitemap.xml
+Sitemap: http://blog.hsiao.xyz/baidusitemap.xml
